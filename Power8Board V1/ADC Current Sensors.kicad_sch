@@ -1,0 +1,1924 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a20d5bd2-af14-4806-a010-23dafd862fb1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Analog_ADC:ADS1015IDGS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADS1015IDGS"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+				(at -1.27 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "12 bit 4 channel I2C ADC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADS1015IDGS_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADS1015IDGS_1_1"
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT/RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 126.365 88.265)
+		(uuid "585ad209-5c26-47b9-b062-80b09eccd8cc")
+	)
+	(no_connect
+		(at 224.79 88.9)
+		(uuid "cf72eaed-74ce-4b5c-a45c-8ae62bf4de4a")
+	)
+	(wire
+		(pts
+			(xy 100.33 131.2672) (xy 74.7268 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0611d274-63d6-48e8-984d-d79386e1b0c2")
+	)
+	(wire
+		(pts
+			(xy 116.205 103.505) (xy 116.205 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dd720f-0d0a-481f-adeb-a7770d04a9ce")
+	)
+	(wire
+		(pts
+			(xy 126.365 98.425) (xy 128.905 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11acc603-3a17-4ea5-b441-0ced845c3289")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 198.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12eda76c-1b29-4111-890e-309475323111")
+	)
+	(wire
+		(pts
+			(xy 198.12 57.15) (xy 169.4434 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2194ecd7-d8c7-4e87-9592-da6b2eef4649")
+	)
+	(wire
+		(pts
+			(xy 97.155 95.885) (xy 97.155 106.172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23515764-6a56-4660-8062-e1c35ece67cb")
+	)
+	(wire
+		(pts
+			(xy 224.79 93.98) (xy 227.965 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bea7a2-88f5-47aa-8ba3-c149780cdccd")
+	)
+	(wire
+		(pts
+			(xy 194.945 107.315) (xy 169.5704 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa42414-821b-47f7-837b-97f930bc63f9")
+	)
+	(wire
+		(pts
+			(xy 194.945 96.52) (xy 194.945 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ab79d7-fc5e-47ee-8ff4-4228163fa6fe")
+	)
+	(wire
+		(pts
+			(xy 169.9006 81.915) (xy 194.945 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e51e12-a1ab-4251-835b-05a97bae3de7")
+	)
+	(wire
+		(pts
+			(xy 214.63 104.14) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a421adf-834b-4151-b49f-e6cb42eec327")
+	)
+	(wire
+		(pts
+			(xy 198.12 99.06) (xy 198.12 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4675bd-7977-47fe-acdf-711b2944f119")
+	)
+	(wire
+		(pts
+			(xy 97.155 93.345) (xy 106.045 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db9c5b8-c7cd-4619-9bba-c0ced49a4868")
+	)
+	(wire
+		(pts
+			(xy 198.12 99.06) (xy 204.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f396a31-1014-4025-9614-1f4e027207e9")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.805) (xy 106.045 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db498a7-07c2-40fb-90b3-c06c5a7bdfae")
+	)
+	(wire
+		(pts
+			(xy 100.33 98.425) (xy 106.045 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679d078c-714c-461d-86a1-0464fc63b198")
+	)
+	(wire
+		(pts
+			(xy 97.155 95.885) (xy 106.045 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8151e3e3-7b6c-4e1e-b220-888d3d78f606")
+	)
+	(wire
+		(pts
+			(xy 224.79 96.52) (xy 227.965 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84042142-25e1-4219-bdd5-52747cd2b966")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.785) (xy 100.33 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89625394-2a7d-46e6-9765-a60c192c28f8")
+	)
+	(wire
+		(pts
+			(xy 74.5744 81.28) (xy 97.155 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c0b5dc-6e57-41e3-95a9-cea995516a5f")
+	)
+	(wire
+		(pts
+			(xy 194.945 96.52) (xy 204.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982f6758-2040-446c-a35a-61773b37013a")
+	)
+	(wire
+		(pts
+			(xy 126.365 93.345) (xy 129.54 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a077c4-4849-44ca-b64a-c9f148a1bc1d")
+	)
+	(wire
+		(pts
+			(xy 97.155 81.28) (xy 97.155 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc041b23-e0b7-4ade-b68c-563af9188d31")
+	)
+	(wire
+		(pts
+			(xy 126.365 95.885) (xy 129.54 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd58e89d-50a2-4af2-b269-e687ef551fa6")
+	)
+	(wire
+		(pts
+			(xy 194.945 93.98) (xy 194.945 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf61a16b-f734-4882-a064-3eaae0f334a8")
+	)
+	(wire
+		(pts
+			(xy 198.12 131.445) (xy 169.545 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff40e00-d07c-44d7-b079-3afa95f95f34")
+	)
+	(wire
+		(pts
+			(xy 214.63 78.74) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5afdfa-4531-450b-9b66-20a294aad1ae")
+	)
+	(wire
+		(pts
+			(xy 224.79 99.06) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf15618f-4a45-4b61-bf68-cc6764eae66c")
+	)
+	(wire
+		(pts
+			(xy 97.155 106.172) (xy 74.549 106.172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c401b6-89ec-4fad-9fe5-e6dfa4ea8577")
+	)
+	(wire
+		(pts
+			(xy 116.205 78.105) (xy 116.205 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e121c817-d1af-4143-b9d1-c896faafaa6b")
+	)
+	(wire
+		(pts
+			(xy 100.33 98.425) (xy 100.33 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7727d70-b80e-440d-88f6-95aae190ddb1")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8a2bf0-17a7-4487-b29d-27bc590a789b")
+	)
+	(wire
+		(pts
+			(xy 74.676 57.785) (xy 100.33 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb30cbe-110d-4686-92cf-54e47d2205a7")
+	)
+	(wire
+		(pts
+			(xy 204.47 93.98) (xy 194.945 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8b484a-00a8-4b3e-8672-0b506bfb029c")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 129.54 95.885 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31c660b7-c67c-454a-9ca1-dadfe4a43b2a")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 227.965 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87ed3ac0-bfa9-4ba5-afd2-36403a7dbb7d")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 227.965 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c387e285-2612-4ce5-9867-b431c2de0239")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 129.54 93.345 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e485af76-91e2-4101-b01c-108424d4da4a")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 214.63 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e15f597-f3bc-4e30-b31c-b55cb608ae53")
+		(property "Reference" "#PWR0108"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 214.63 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50b2003f-7bff-4f2a-b192-d77ba49cbe57")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.205 78.105 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7ae3bf-187b-49cf-84e3-c8e855c4ca3a")
+		(property "Reference" "#PWR0105"
+			(at 116.205 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.205 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.205 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.205 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6aec247-542b-4b30-9bbf-66be26fe0363")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70dbf203-3558-497c-9b49-d07f27d80505")
+		(property "Reference" "#PWR0109"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58716e61-af51-4b4a-a24f-f2c7286b33b6")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1015IDGS")
+		(at 116.205 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "798bfcea-f6b0-445f-b868-613b88f7f697")
+		(property "Reference" "U12"
+			(at 118.3991 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015IDGS"
+			(at 118.3991 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+			(at 114.935 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 116.205 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 116.205 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ADS1015IDGSR"
+			(at 116.205 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$2.98"
+			(at 116.205 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
+			(at 116.205 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9de2d768-4dc2-45f8-9147-74a07f66aa56")
+		)
+		(pin "9"
+			(uuid "b9421263-de9b-4ef4-84e7-6f1334bc665f")
+		)
+		(pin "7"
+			(uuid "5a2a1e5c-ca1c-43af-9be0-d853b7f35cf5")
+		)
+		(pin "4"
+			(uuid "64f3c899-b8c7-4149-8249-9682458bacfa")
+		)
+		(pin "6"
+			(uuid "5c086a15-ff95-4cbc-adaa-2c72151f9eb7")
+		)
+		(pin "8"
+			(uuid "ad8a53a6-c6e6-499c-92d1-de6e55f9c662")
+		)
+		(pin "1"
+			(uuid "b1c7b6fb-02c0-4a92-bd98-32a9a8ba6f67")
+		)
+		(pin "10"
+			(uuid "8cee7080-fab3-447e-8d87-3e96a13a677d")
+		)
+		(pin "3"
+			(uuid "2641fdbb-4120-452c-892d-45c3ea1b7c5e")
+		)
+		(pin "5"
+			(uuid "8a0657ae-9b18-4401-97ac-20898d8c5f2d")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1015IDGS")
+		(at 214.63 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f9ee192-c887-4476-9a39-afab0985704d")
+		(property "Reference" "U13"
+			(at 216.8241 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015IDGS"
+			(at 216.8241 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ADS1015IDGSR"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$2.98"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0af013a7-97ed-457f-8195-0f391807f48e")
+		)
+		(pin "9"
+			(uuid "97577aa2-7562-4fc1-bda0-82df560b497a")
+		)
+		(pin "7"
+			(uuid "2f07a095-5a5c-496f-8520-2bc1a9c96a53")
+		)
+		(pin "4"
+			(uuid "201f5430-b2d9-4075-ba78-c506721fe497")
+		)
+		(pin "6"
+			(uuid "7faec1ab-681e-4b59-a440-316173d1799f")
+		)
+		(pin "8"
+			(uuid "96b0df9e-ae8a-4852-a9ab-d421a005051e")
+		)
+		(pin "1"
+			(uuid "c23ad403-cefa-44c0-9299-5918a31179f7")
+		)
+		(pin "10"
+			(uuid "12ec2d6b-48cd-4e0b-8ed0-4e877964b00f")
+		)
+		(pin "3"
+			(uuid "ec8680d8-de55-4649-abcb-970e9991f103")
+		)
+		(pin "5"
+			(uuid "9a7b49ea-42b8-4e71-a6fe-93533652baea")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.205 106.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd211fb5-1359-4314-8f92-e1873a8a5651")
+		(property "Reference" "#PWR0106"
+			(at 116.205 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.205 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97ddd3ae-77d7-4f8d-bdd7-23542f5ed8ec")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72957d1-301e-4ae7-8cba-ce9bae3668e6")
+		(property "Reference" "#PWR0110"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 230.505 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf2c3fc9-c692-48e6-8ea6-a4d0dcafc56c")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.905 98.425 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5dbb746-3ce1-428f-bb46-25b3091fbdb7")
+		(property "Reference" "#PWR0107"
+			(at 135.255 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 98.4249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.905 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.905 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.905 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2da4d8-4b9c-4e46-bd0d-1fe6c7bec7c8")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.0566 74.2696)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "0659510c-572a-4ec3-8d25-c87c35329174")
+		(property "Sheetname" "INA240 Current Sensor 5"
+			(at 148.0566 73.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 5.kicad_sch"
+			(at 148.0566 89.3322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT5" input
+			(at 169.9006 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b003125-11eb-420e-86bf-bc3648f8cd1a")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.7264 99.695)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "090188e7-77ec-4d24-a2a3-4f928b9f7362")
+		(property "Sheetname" "INA240 Current Sensor 6"
+			(at 147.7264 98.9834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 6.kicad_sch"
+			(at 147.7264 114.7576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT6" input
+			(at 169.5704 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "097b99a1-8166-453b-8e3d-02662437c9eb")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.5994 49.5554)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "30006003-34f5-4d75-b29f-bfd2a79d18a3")
+		(property "Sheetname" "INA240 Current Sensor 4"
+			(at 147.5994 48.8438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 4.kicad_sch"
+			(at 147.5994 64.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT4" input
+			(at 169.4434 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3ed679a-bdb3-4d94-8550-a8d8c1646647")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.701 123.825)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "3581352b-4b94-4488-9f17-1d849a571506")
+		(property "Sheetname" "INA240 Current Sensor 7"
+			(at 147.701 123.1134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 7.kicad_sch"
+			(at 147.701 138.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT7" input
+			(at 169.545 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0907e655-1039-4150-83d3-c1ed7333c604")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.7304 73.533)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "db9137a7-4e97-40ba-b5e6-2da12e50f672")
+		(property "Sheetname" "INA240 Current Sensor 1"
+			(at 52.7304 72.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 1.kicad_sch"
+			(at 52.7304 88.5956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT1" input
+			(at 74.5744 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "297fe454-d87e-4605-ab59-dfc1a7353c3d")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.832 49.6062)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "de561fd9-4477-4dad-9e95-bd36a35c3ab8")
+		(property "Sheetname" "INA240 Current Sensor 0"
+			(at 52.832 48.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 0.kicad_sch"
+			(at 52.832 64.6688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT0" output
+			(at 74.676 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4bb4e459-5146-48f7-b849-9ad55a288108")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 98.425)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "e1468da4-9b9d-4945-991c-612b8553fd9a")
+		(property "Sheetname" "INA240 Current Sensor 2"
+			(at 52.705 97.7134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 2.kicad_sch"
+			(at 52.705 113.4876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT2" input
+			(at 74.549 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae4b2035-cafb-4450-b285-1cf8f26eef60")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.8828 123.5202)
+		(size 21.844 14.478)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.1200)
+		)
+		(uuid "f12f6ba9-ab6d-4984-bb7d-f57b63eb35b3")
+		(property "Sheetname" "INA240 Current Sensor 3"
+			(at 52.8828 122.8086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA240 Current Sensor 3.kicad_sch"
+			(at 52.8828 138.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT3" input
+			(at 74.7268 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1319bcf9-6ffc-47ae-bfa4-3b66d3f70f8b")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(page "5")
+				)
+			)
+		)
+	)
+)

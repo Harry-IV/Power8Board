@@ -578,6 +578,46 @@
     [
       "835b92cb-5206-4b93-b4be-2a785f4797f4",
       "Root"
+    ],
+    [
+      "64832d79-2054-4fdb-82f6-de66896e6610",
+      "Current Sensing"
+    ],
+    [
+      "db9137a7-4e97-40ba-b5e6-2da12e50f672",
+      "INA240 Current Sensor 1"
+    ],
+    [
+      "e1468da4-9b9d-4945-991c-612b8553fd9a",
+      "INA240 Current Sensor 2"
+    ],
+    [
+      "f12f6ba9-ab6d-4984-bb7d-f57b63eb35b3",
+      "INA240 Current Sensor 3"
+    ],
+    [
+      "30006003-34f5-4d75-b29f-bfd2a79d18a3",
+      "INA240 Current Sensor 4"
+    ],
+    [
+      "0659510c-572a-4ec3-8d25-c87c35329174",
+      "INA240 Current Sensor 5"
+    ],
+    [
+      "090188e7-77ec-4d24-a2a3-4f928b9f7362",
+      "INA240 Current Sensor 6"
+    ],
+    [
+      "3581352b-4b94-4488-9f17-1d849a571506",
+      "INA240 Current Sensor 7"
+    ],
+    [
+      "de561fd9-4477-4dad-9e95-bd36a35c3ab8",
+      "INA240 Current Sensor 0"
+    ],
+    [
+      "cc543367-03ad-4bb2-8378-8dc6c533d29a",
+      "Voltage Sensing"
     ]
   ],
   "text_variables": {}

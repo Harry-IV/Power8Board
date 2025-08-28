@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "17df280c-b210-40ce-9ba5-0882bc33f893")
+	(uuid "76e9a243-2420-49e9-a6ef-1c6f12009b11")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1015IDGS"

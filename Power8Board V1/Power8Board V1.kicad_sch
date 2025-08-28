@@ -298,6 +298,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2582,6 +2751,16 @@
 	)
 	(wire
 		(pts
+			(xy 174.625 102.87) (xy 174.625 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010fb06a-fd4b-457b-97b1-658ed28e982c")
+	)
+	(wire
+		(pts
 			(xy 121.92 39.37) (xy 125.73 39.37)
 		)
 		(stroke
@@ -2609,16 +2788,6 @@
 			(type default)
 		)
 		(uuid "0c904f1a-83ab-44e6-ba0d-95d378cf58c9")
-	)
-	(wire
-		(pts
-			(xy 26.67 165.735) (xy 27.94 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c935659-e11b-4a6d-a31f-056310b77236")
 	)
 	(wire
 		(pts
@@ -2682,6 +2851,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 123.825) (xy 157.48 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133e2448-3f7c-49c3-8c0d-cb343102cf44")
+	)
+	(wire
+		(pts
 			(xy 94.615 94.615) (xy 94.615 93.345)
 		)
 		(stroke
@@ -2702,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 170.815) (xy 27.94 170.815)
+			(xy 26.67 175.26) (xy 28.575 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2719,6 +2898,26 @@
 			(type default)
 		)
 		(uuid "1c961aee-a385-4a81-bac0-571e7952e7cd")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf092d6-76cf-42a2-b5fe-d8a9e75c284a")
+	)
+	(wire
+		(pts
+			(xy 174.625 113.03) (xy 174.625 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ced690-6858-44c9-a105-c7f7380f25f5")
 	)
 	(wire
 		(pts
@@ -3092,6 +3291,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.335 113.03) (xy 140.335 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4fdc26-302c-49fc-a0da-2d27be7af71b")
+	)
+	(wire
+		(pts
 			(xy 78.105 39.37) (xy 83.82 39.37)
 		)
 		(stroke
@@ -3162,6 +3371,16 @@
 	)
 	(wire
 		(pts
+			(xy 174.625 123.825) (xy 174.625 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da9bf0-03ff-433d-ba99-59f6b3286d83")
+	)
+	(wire
+		(pts
 			(xy 249.555 132.08) (xy 252.73 132.08)
 		)
 		(stroke
@@ -3169,6 +3388,16 @@
 			(type default)
 		)
 		(uuid "742ca2db-4b58-4a5b-95ae-915a52f900f3")
+	)
+	(wire
+		(pts
+			(xy 140.335 123.825) (xy 140.335 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754b35d0-a372-4f39-b4c1-d96e506dbbd9")
 	)
 	(wire
 		(pts
@@ -3192,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.825 113.03) (xy 123.825 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c736b7-a9c4-4c86-81f3-3571610ea6e7")
+	)
+	(wire
+		(pts
 			(xy 249.555 132.08) (xy 249.555 137.795)
 		)
 		(stroke
@@ -3199,6 +3438,16 @@
 			(type default)
 		)
 		(uuid "84cdbdd5-05ee-497e-ad2f-d4d8619f662f")
+	)
+	(wire
+		(pts
+			(xy 123.825 102.87) (xy 123.825 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867152c9-21f5-4d2c-bc63-a3750de00234")
 	)
 	(wire
 		(pts
@@ -3242,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 168.275) (xy 27.94 168.275)
+			(xy 26.67 172.72) (xy 28.575 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3332,16 +3581,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 165.1) (xy 26.67 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cedb6f-2b89-48c5-866d-62db7349946e")
-	)
-	(wire
-		(pts
 			(xy 229.87 27.94) (xy 233.68 27.94)
 		)
 		(stroke
@@ -3362,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 173.355) (xy 27.94 173.355)
+			(xy 26.67 177.8) (xy 28.575 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3622,6 +3861,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.825 123.825) (xy 123.825 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06422f2-0cd4-489f-bc4c-06803c20398b")
+	)
+	(wire
+		(pts
 			(xy 22.86 123.825) (xy 22.86 125.73)
 		)
 		(stroke
@@ -3762,6 +4011,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.335 102.87) (xy 140.335 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ee1d8e-00ca-4035-a560-7c57fb0a6ab2")
+	)
+	(wire
+		(pts
 			(xy 50.165 94.615) (xy 50.165 93.345)
 		)
 		(stroke
@@ -3809,6 +4068,16 @@
 			(type default)
 		)
 		(uuid "e9737daf-3d24-41fb-bc6b-37f00d59a215")
+	)
+	(wire
+		(pts
+			(xy 157.48 113.03) (xy 157.48 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea844344-0671-4efe-86db-2cf57cb5fc37")
 	)
 	(wire
 		(pts
@@ -3882,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 165.1) (xy 26.67 165.1)
+			(xy 26.67 170.18) (xy 28.575 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3964,17 +4233,17 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 26.035 165.1 180)
+		(at 26.67 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "aa9d0ef8-c646-49be-8ddb-f7746ac56857")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5422 165.1 0)
+			(at 21.476 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,17 +4321,17 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 26.035 168.275 180)
+		(at 26.67 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "fd74272d-ebf3-4324-ab54-7a37571f51e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.4817 168.275 0)
+			(at 21.4276 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,6 +4473,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 174.625 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "049e9143-8e8d-42ae-89d9-ebf86c73b5ab")
+		(property "Reference" "#PWR0121"
+			(at 174.625 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 174.625 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 174.625 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b323e0-3d0a-4e87-9912-92d261be5146")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d01d28-ce89-45ad-ae36-1b6263bc5f30")
+		(property "Reference" "#PWR0119"
+			(at 157.48 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69fd1b50-0228-4bc7-b44e-7717d25a8613")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 229.87 27.94 90)
 		(unit 1)
@@ -4271,6 +4672,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.335 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb61da2-a449-4bc5-9588-42a2b6b30103")
+		(property "Reference" "R23"
+			(at 142.875 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 142.875 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.557 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-2-2176341-6.datasheet.pdf"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.2K OHM 1% 1/8W 0805"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F1K2"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.037"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F1K2/8576352?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJcADpBAAgDWAeQAWAW0whqIeowCqndnS3IAstlSYArq2z8BIQUoDCAJQDi3gCKYsKSlHxAA"
+			(at 140.335 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4239195e-f0fe-41fc-9b10-2eec78f5f1fd")
+		)
+		(pin "2"
+			(uuid "77278ce1-8429-41ad-b14b-af7c35db18a7")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 28.575 46.99 270)
 		(unit 1)
@@ -4332,6 +4839,178 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 140.335 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1476927c-3b7b-421f-9043-dc3732fb129a")
+		(property "Reference" "#PWR0116"
+			(at 140.335 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.335 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 140.335 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b571dafd-9726-47fa-bff1-7d37a1013c68")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 140.335 120.015 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "150b018b-fd32-4981-9f9c-05f7e48cc71d")
+		(property "Reference" "D2"
+			(at 143.51 120.3324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 143.51 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0805 LED:WL-SMCW_0805"
+			(at 140.335 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
+			(at 140.335 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED CLEAR 0805 SMD"
+			(at 140.335 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Würth Elektronik"
+			(at 140.335 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "150080RS75000"
+			(at 140.335 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.19"
+			(at 140.335 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080RS75000/4489918"
+			(at 140.335 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6708eb1d-785d-425c-8705-ddec66b18a92")
+		)
+		(pin "2"
+			(uuid "4a25298c-da3f-4822-b4ab-5eb4aadf4227")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4502,6 +5181,112 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 174.625 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "235b657c-97c6-4da3-97f1-86c025f86482")
+		(property "Reference" "R24"
+			(at 176.53 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 176.53 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 172.847 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-4-2176341-6.datasheet.pdf"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 56K OHM 1% 1/8W 0805"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F56K"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.037"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F56K/8576372?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANohIBsABANYDyAFgLb4gC6pADgBcoIAKoA7AJYDmmALKFs%2BAK4AnQiAC%2BG0jCogAwgCUA4voCKiOCm4agA"
+			(at 174.625 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b1e0ab9-7d89-47d8-a15d-d7dacbd2e44f")
+		)
+		(pin "2"
+			(uuid "65780cf3-24e2-428b-922d-4fea3a9a4c79")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5891,7 +6676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.035 173.355 270)
+		(at 26.67 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5900,7 +6685,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d7302e6-51a1-48f7-b0e7-dbcb71cd26cd")
 		(property "Reference" "#PWR018"
-			(at 19.685 173.355 0)
+			(at 20.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +6694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.225 173.3549 90)
+			(at 22.86 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +6703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.035 173.355 0)
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +6712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.035 173.355 0)
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +6721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.035 173.355 0)
+			(at 26.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +7610,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
-		(at 33.02 168.275 0)
+		(at 33.655 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6834,7 +7619,7 @@
 		(fields_autoplaced yes)
 		(uuid "811797e5-6525-42ac-822d-c95b8320a2a6")
 		(property "Reference" "J8"
-			(at 42.545 168.2749 0)
+			(at 43.18 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7628,7 @@
 			)
 		)
 		(property "Value" "Qwiic_RA"
-			(at 42.545 170.8149 0)
+			(at 43.18 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7637,7 @@
 			)
 		)
 		(property "Footprint" "QWIIC Connector RA:QWIIC Connector RA"
-			(at 33.02 180.975 0)
+			(at 33.655 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7646,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 33.02 183.515 0)
+			(at 33.655 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +7655,7 @@
 			)
 		)
 		(property "Description" "4 pin JST 1mm polarized connector for I2C"
-			(at 33.02 186.055 0)
+			(at 33.655 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +7664,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-13694"
-			(at 33.02 178.435 0)
+			(at 33.655 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,6 +7761,112 @@
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 174.625 120.015 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8398343c-7599-4377-9b6b-201ab0390ab3")
+		(property "Reference" "D4"
+			(at 177.8 120.3324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 177.8 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0805 LED:WL-SMCW_0805"
+			(at 174.625 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080GS75000.pdf"
+			(at 174.625 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR 0805 SMD"
+			(at 174.625 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Würth Elektronik"
+			(at 174.625 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "150080GS75000"
+			(at 174.625 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.19"
+			(at 174.625 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080GS75000/4489915"
+			(at 174.625 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45aa902d-d13e-4ea9-ae16-9d14fc67e4e4")
+		)
+		(pin "2"
+			(uuid "7042214e-3ec2-47c7-9b09-486142c1e590")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7088,6 +7979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.335 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b50b9a3-54a4-47e5-8ce9-d1d1e21bc41a")
+		(property "Reference" "#PWR0117"
+			(at 140.335 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.335 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.335 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75b1419d-45d2-4de1-829c-6662970430f8")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 74.295 19.685 90)
 		(unit 1)
@@ -7154,7 +8111,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 26.035 170.815 90)
+		(at 26.67 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7163,7 +8120,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d0e08c9-a8c2-42b1-8ea6-32752181e013")
 		(property "Reference" "#PWR017"
-			(at 29.845 170.815 0)
+			(at 30.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +8129,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 22.225 170.8149 90)
+			(at 22.86 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +8138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.035 170.815 0)
+			(at 26.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +8147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.035 170.815 0)
+			(at 26.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +8156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.035 170.815 0)
+			(at 26.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,6 +8453,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 123.825 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fb1dcb-66f6-4e44-8590-674b09e465c4")
+		(property "Reference" "R21"
+			(at 125.73 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680"
+			(at 125.73 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 122.047 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-2-2176341-3.datasheet.pdf"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 680 OHM 1% 1/8W 0805"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F680R"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.037"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F680R/8576349?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJEADZRwgAQB5ABYBbTCGoh6jAKqd2dTcgCy2VJgCurbPwEhBSgMIAlAOJeAIpiwpKUfEA"
+			(at 123.825 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53798f03-dc79-4655-9524-5aeef4335d3b")
+		)
+		(pin "2"
+			(uuid "42c0b3b3-95f7-473f-974c-0d68bfacc1c8")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 97.79 145.415 270)
 		(unit 1)
@@ -7557,6 +8620,72 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.825 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b24522-8af1-4713-b6ff-29759ae81f97")
+		(property "Reference" "#PWR0114"
+			(at 123.825 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.825 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6615ff1b-ee16-41d1-8884-826659607cd1")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8511,6 +9640,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 174.625 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3747a5-c5c8-482a-9bca-6ba075043a38")
+		(property "Reference" "#PWR0120"
+			(at 174.625 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 174.625 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 174.625 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7ef5b5f-01ac-443a-83fd-affccc0956a1")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 171.45 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8571,6 +9766,112 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 157.48 120.015 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c294af65-3a60-4222-96b4-3e12ff87e61b")
+		(property "Reference" "D3"
+			(at 161.29 120.3324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 161.29 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0805 LED:WL-SMCW_0805"
+			(at 157.48 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080YS75000.pdf"
+			(at 157.48 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED YELLOW CLEAR 0805 SMD"
+			(at 157.48 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Würth Elektronik"
+			(at 157.48 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "150080YS75000"
+			(at 157.48 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.19"
+			(at 157.48 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080YS75000/4489927"
+			(at 157.48 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9cbcb53-3620-4099-bbdd-b33433e4e3f9")
+		)
+		(pin "2"
+			(uuid "a36daabf-000c-450a-a446-eb775b226c81")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8852,6 +10153,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 157.48 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdef3f15-928a-4fad-8e63-69f442931060")
+		(property "Reference" "R22"
+			(at 160.02 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 160.02 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 155.702 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-2-2176341-9.datasheet.pdf"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 2.2K OHM 1% 1/8W 0805"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F2K2"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.037"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F2K2/8576355"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e0bc77-7362-475c-81ed-371865a5daf1")
+		)
+		(pin "2"
+			(uuid "02054eb2-55d7-4c22-b1b6-b06b244ed700")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 27.94 39.37 90)
 		(unit 1)
@@ -8978,6 +10385,112 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.825 120.015 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d536e9ba-c4ea-4a0b-bd51-70bbc735a757")
+		(property "Reference" "D1"
+			(at 127.635 120.3324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 127.635 122.8724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0805 LED:WL-SMCW_0805"
+			(at 123.825 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080AS75000.pdf"
+			(at 123.825 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED AMBER CLEAR 0805 SMD"
+			(at 123.825 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Würth Elektronik"
+			(at 123.825 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "150080AS75000"
+			(at 123.825 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.25"
+			(at 123.825 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080AS75000/11479384"
+			(at 123.825 120.015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d581c94-5d53-437a-a1ca-66a92a6a1807")
+		)
+		(pin "2"
+			(uuid "413b20a5-741b-4af3-b78d-35f0dfb1dfa0")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9150,6 +10663,72 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 157.48 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e16a4f4d-eb6b-4cf0-9055-de4a2a9246e4")
+		(property "Reference" "#PWR0118"
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 157.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f41a40d8-4a81-4fae-8b6d-a345667780c3")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9928,6 +11507,72 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.825 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeba932a-4dd6-4a1d-bc1f-600b51960cd2")
+		(property "Reference" "#PWR0115"
+			(at 123.825 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.825 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.825 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.825 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.825 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533c3d77-d274-4ba5-a659-41653be74b75")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

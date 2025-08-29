@@ -5586,74 +5586,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 216.535 141.605 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c00756c-2559-47e3-8a24-32f29930bb8f")
-		(property "Reference" "R2"
-			(at 216.535 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 216.535 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.535 143.383 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 216.535 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 216.535 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa5cb757-c25e-403e-9a1a-63be69ed5a9f")
-		)
-		(pin "2"
-			(uuid "44958fcd-3ff7-49c8-8b5f-48e98b5a37b0")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 216.535 102.235 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5678,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.535 104.013 90)
 			(effects
 				(font
@@ -5687,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-7.datasheet.pdf"
 			(at 216.535 102.235 0)
 			(effects
 				(font
@@ -5696,8 +5628,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 216.535 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 216.535 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F10K"
+			(at 216.535 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.036"
+			(at 216.535 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F10K/8576363?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJcMIAEAawDyACwC2mENRD1GAVU7s6G5AFlsqTAFdW2fgJCClAYQBKAcU8AimLCkpR8QA"
+			(at 216.535 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,74 +6151,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 216.535 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3acb6ea5-b16a-479f-ae88-dcb0ac018231")
-		(property "Reference" "R3"
-			(at 216.535 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 216.535 60.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.535 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 216.535 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 216.535 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0330d330-9448-49d5-8379-ba63c7b8471f")
-		)
-		(pin "2"
-			(uuid "24343a17-38d3-41a0-ae87-b6c25b958ce3")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7663,8 +7563,35 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-13694"
+		(property "Mfr." "JST Sales America Inc."
 			(at 33.655 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "SM04B-SRSS-TB"
+			(at 33.655 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.424"
+			(at 33.655 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB/926710"
+			(at 33.655 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 252.73 65.278 90)
 			(effects
 				(font
@@ -7733,7 +7660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/usa-en/product-5-2176341-7.datasheet.pdf"
 			(at 252.73 63.5 0)
 			(effects
 				(font
@@ -7742,8 +7669,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 470K OHM 1% 1/8W 0805"
 			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 252.73 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F470K"
+			(at 252.73 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.036"
+			(at 252.73 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F470K/8576383?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJEABYA7MIAEAawDyACwC2mENRD1GAVU7s6O5AFlsqTAFdW2fgJCClAYQBKAOK%2BAIpiwpKUfEA"
+			(at 252.73 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,6 +9270,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 216.535 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a492ab5d-00c0-4869-84f9-125ce0a7eb47")
+		(property "Reference" "R3"
+			(at 216.535 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 216.535 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 216.535 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-7.datasheet.pdf"
+			(at 216.535 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 216.535 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 216.535 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F10K"
+			(at 216.535 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.036"
+			(at 216.535 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F10K/8576363?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJcMIAEAawDyACwC2mENRD1GAVU7s6G5AFlsqTAFdW2fgJCClAYQBKAcU8AimLCkpR8QA"
+			(at 216.535 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ff7966a-ca2b-48b4-ac0c-c85017e89b31")
+		)
+		(pin "2"
+			(uuid "c5777a53-ab8a-4964-9c49-b3c7927101c6")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 92.71 90)
 		(unit 1)
@@ -10491,6 +10558,110 @@
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 216.535 141.605 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5bbddc-8685-41e7-b0eb-7f1b148abacd")
+		(property "Reference" "R2"
+			(at 216.535 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 216.535 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 216.535 143.383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-3-2176341-7.datasheet.pdf"
+			(at 216.535 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 216.535 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 216.535 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0805F10K"
+			(at 216.535 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.036"
+			(at 216.535 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805F10K/8576363?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3wAmAAwAOAKzwQSSGix5CJcMIAEAawDyACwC2mENRD1GAVU7s6G5AFlsqTAFdW2fgJCClAYQBKAcU8AimLCkpR8QA"
+			(at 216.535 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe77321f-1a52-45ef-8bba-51a30b50a422")
+		)
+		(pin "2"
+			(uuid "202eeb20-5b2b-4fba-b8c8-1a7087bc37b1")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "R2")
 					(unit 1)
 				)
 			)

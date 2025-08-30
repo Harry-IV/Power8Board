@@ -885,108 +885,6 @@
 				)
 			)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 60.96 170.815)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0496bb7e-6eb1-46fe-b50f-83969829cb9c")
 	)
 	(junction
 		(at 86.36 149.86)
@@ -1019,22 +917,28 @@
 		(uuid "b1628afd-7aee-48d2-9de6-56ff2f5b71d1")
 	)
 	(junction
-		(at 86.36 170.815)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c424b314-3a37-4411-ba6d-e90c38394de4")
-	)
-	(junction
 		(at 38.1 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d223ea50-da39-4f2a-84b7-332e83265232")
 	)
 	(junction
+		(at 86.36 168.275)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16f5e6f-72bf-4e45-a331-2026665c8e02")
+	)
+	(junction
 		(at 101.6 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0c509f3-260d-45f8-b2af-70229dff331e")
+	)
+	(junction
+		(at 60.96 168.275)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2c972a-6fa6-4afb-8b8d-65f0146f8e30")
 	)
 	(no_connect
 		(at 147.955 109.855)
@@ -1059,16 +963,6 @@
 			(type default)
 		)
 		(uuid "155c6c26-f58c-474e-bbd2-1db01fa55056")
-	)
-	(wire
-		(pts
-			(xy 86.36 170.815) (xy 86.36 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c51020d-2590-41b9-a090-a97917a7d95e")
 	)
 	(wire
 		(pts
@@ -1212,6 +1106,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 168.275) (xy 86.36 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b6a4b-e5f5-4415-a036-f7df236d63f5")
+	)
+	(wire
+		(pts
 			(xy 80.645 118.745) (xy 80.645 121.285)
 		)
 		(stroke
@@ -1259,16 +1163,6 @@
 			(type default)
 		)
 		(uuid "85f96d64-549a-4a1f-a7a9-4cff6e0f4e9d")
-	)
-	(wire
-		(pts
-			(xy 60.96 173.355) (xy 60.96 170.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aab1191-50ef-41d6-ad33-6de532083387")
 	)
 	(wire
 		(pts
@@ -1332,6 +1226,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 168.275) (xy 60.96 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6a96fe-3848-49b8-95b3-23abb95135e8")
+	)
+	(wire
+		(pts
 			(xy 149.86 120.015) (xy 149.86 117.475)
 		)
 		(stroke
@@ -1352,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 170.815) (xy 69.85 170.815)
+			(xy 60.325 168.275) (xy 60.96 168.275)
 		)
 		(stroke
 			(width 0)
@@ -1362,23 +1266,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 60.96 170.815)
+			(xy 60.96 163.83) (xy 60.96 168.275)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9560445-2312-402d-80dd-5d7f48643d5a")
-	)
-	(wire
-		(pts
-			(xy 77.47 170.815) (xy 86.36 170.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2014c5-6f50-448a-bdc7-345e5b03debc")
 	)
 	(wire
 		(pts
@@ -1389,6 +1283,16 @@
 			(type default)
 		)
 		(uuid "d4aed58f-2ca4-4b13-a997-906b4aa44056")
+	)
+	(wire
+		(pts
+			(xy 60.96 168.275) (xy 86.36 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c87753-98b4-4fdf-89ad-356c94a193cf")
 	)
 	(wire
 		(pts
@@ -1422,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 170.815) (xy 86.36 163.83)
+			(xy 86.36 168.275) (xy 86.36 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1476,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 60.96 173.355 270)
+		(at 60.96 172.72 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1605,6 +1509,18 @@
 			(justify left)
 		)
 		(uuid "5e74e80f-20e9-4ecb-8967-2e917bee3cdc")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 137.795 127.635 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "973e74e3-ad21-4f7e-8245-ab4eff3f3d1a")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -1641,6 +1557,18 @@
 			(justify left)
 		)
 		(uuid "d5e42de7-d98d-41ed-a8b8-16c57375eab0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 86.36 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f63e16c0-4af9-49ad-b183-8cfaf374e82a")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -1755,76 +1683,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60.96 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5113c2e5-dc1f-450c-8fcf-a4b79c285682")
-		(property "Reference" "C24"
-			(at 64.77 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 64.77 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.9252 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12c4f104-39c3-4a3b-adc1-acfb0b3654ee")
-		)
-		(pin "2"
-			(uuid "9fe8bb33-2a70-4fbe-b996-b3d189f59d7d")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1997,74 +1855,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 73.66 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5685203d-4b44-4752-b168-8616c76e6890")
-		(property "Reference" "FB5"
-			(at 73.6092 142.875 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 73.6092 145.415 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a848666-d759-4f00-b71f-6c1885af4b87")
-		)
-		(pin "2"
-			(uuid "ffac8170-8ae3-4591-9352-6d2531818e14")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -2442,71 +2232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 137.795 127.635 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72a28a2f-c4c7-4c3a-b988-eeb10eae0da4")
-		(property "Reference" "#PWR037"
-			(at 137.795 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA/3"
-			(at 137.795 132.461 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.795 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.795 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 137.795 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b035b9dd-4b50-4a9e-b47c-243d54447d83")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 80.645 104.775 0)
 		(unit 1)
@@ -2719,6 +2444,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97539a59-b8ec-4990-9378-220319a31190")
+		(property "Reference" "C25"
+			(at 90.17 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 90.17 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 87.3252 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 uF 0805 Ceramic Capacitor - Automotive, Bypass, Decoupling"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "KEMET"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C104J5RACAUTO"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.109"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0805C104J5RACAUTO/3314919"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee5fade-602e-43b0-af49-3bd7d92b4fd0")
+		)
+		(pin "2"
+			(uuid "4f353fed-ca81-4f97-9bba-3feacfeba5ce")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.055 104.14 0)
 		(unit 1)
@@ -2825,16 +2656,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 86.36 172.72 0)
+		(lib_id "Device:FerriteBead")
+		(at 73.66 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9f9c0b67-5b28-4299-bbfa-b4e2c560d4cb")
-		(property "Reference" "#PWR036"
-			(at 86.36 179.07 0)
+		(fields_autoplaced yes)
+		(uuid "a7197cc7-29bb-49c0-b1be-e2e616b7818e")
+		(property "Reference" "FB3"
+			(at 73.6092 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 73.6092 145.415 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MPZ2012S102ATD25:BEADC2012X105N"
+			(at 73.66 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,16 +2690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA/3"
-			(at 86.36 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 172.72 0)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf"
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,8 +2699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 172.72 0)
+		(property "Description" "FERRITE BEAD 1 KOHM 0805 1LN"
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,8 +2708,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 86.36 172.72 0)
+		(property "Mfr." "TDK Corporation"
+			(at 73.66 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MPZ2012S102ATD25"
+			(at 73.66 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.084"
+			(at 73.66 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S102ATD25/5040327"
+			(at 73.66 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,12 +2745,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f4ead03-8dba-428c-beaa-3004b01b6cc5")
+			(uuid "842a285d-0f33-416f-8806-2cab070ca77a")
+		)
+		(pin "2"
+			(uuid "26ec280f-3de2-4b73-af4e-6065b6dec9c8")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR036")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -2891,16 +2761,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 160.02 0)
+		(at 60.96 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ff03efe-7f5c-4563-9a4e-4be452a791ca")
-		(property "Reference" "C25"
-			(at 90.17 158.7499 0)
+		(uuid "ab10957a-09fd-4cbd-8fb8-cd7ecf00eaec")
+		(property "Reference" "C24"
+			(at 64.77 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,8 +2778,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 90.17 161.2899 0)
+		(property "Value" "10 uF"
+			(at 64.77 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,8 +2787,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.3252 163.83 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 61.9252 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,8 +2796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 160.02 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
+			(at 60.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,8 +2805,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 160.02 0)
+		(property "Description" "CAP CER 10UF 25V X7S 0805"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata Electronics"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRT21BC71E106KE13L"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.32"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BC71E106KE13L/10697404"
+			(at 60.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,15 +2851,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c6fac28-f8bd-46c2-82db-bb7e4712bf25")
+			(uuid "d19469f8-d419-4625-9b80-27dd9aad2786")
 		)
 		(pin "2"
-			(uuid "b3cf73a4-1e24-4917-b4c4-c51a9a445794")
+			(uuid "826d8b07-159b-45de-bd1c-0bc6d4c2c648")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3192,74 +3098,6 @@
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 73.66 170.815 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb680d3a-55f1-40a1-b8bd-7a1ac0b3f212")
-		(property "Reference" "FB6"
-			(at 73.6092 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 73.6092 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 172.593 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 73.66 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3c431d8-552d-4202-9525-f8c54a9369f5")
-		)
-		(pin "2"
-			(uuid "422923b7-4f77-4679-a5d0-1d15633e448c")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "FB6")
 					(unit 1)
 				)
 			)

@@ -1426,14 +1426,14 @@
 				)
 			)
 		)
-		(symbol "XT60-M_1"
+		(symbol "XT60-M_2"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
+			(property "Reference" "J0"
 				(at 9.525 2.5401 0)
 				(effects
 					(font
@@ -1515,7 +1515,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XT60-M_1_0_0"
+			(symbol "XT60-M_2_0_0"
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 1.905 -2.54)
@@ -1562,6 +1562,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "XT60-M_2_1_0"
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 5.08)
@@ -1572,7 +1574,7 @@
 							)
 						)
 					)
-					(number "N"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1590,7 +1592,7 @@
 							)
 						)
 					)
-					(number "P"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1599,7 +1601,7 @@
 					)
 				)
 			)
-			(symbol "XT60-M_1_1_1"
+			(symbol "XT60-M_2_1_1"
 				(polyline
 					(pts
 						(xy 0 -4.445) (xy 0 6.985) (xy 1.27 8.255) (xy 7.62 8.255) (xy 7.62 -5.715) (xy 1.27 -5.715) (xy 0 -4.445)
@@ -1612,24 +1614,6 @@
 						(type background)
 					)
 				)
-				(pin no_connect line
-					(at 6.35 7.62 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 		(symbol "XT60:XT60-M"
@@ -1639,7 +1623,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
+			(property "Reference" "J10"
 				(at 8.89 2.5401 0)
 				(effects
 					(font
@@ -1724,18 +1708,6 @@
 			(symbol "XT60-M_0_0"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 0) (xy 1.905 0)
 					)
 					(stroke
@@ -1748,79 +1720,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1852,6 +1752,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "XT60-M_1_0"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 5.08)
@@ -1862,7 +1764,7 @@
 							)
 						)
 					)
-					(number "N"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1880,7 +1782,7 @@
 							)
 						)
 					)
-					(number "P"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1890,6 +1792,18 @@
 				)
 			)
 			(symbol "XT60-M_1_1"
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08) (xy 1.27 5.08) (xy 0 3.81) (xy 0 -1.27) (xy 1.27 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin no_connect line
 					(at 6.35 7.62 270)
 					(length 2.54) hide
@@ -5017,6 +4931,114 @@
 		)
 	)
 	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 136.525 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a5e5a2-cbbc-42c8-828e-c246f4062e89")
+		(property "Reference" "J6"
+			(at 146.05 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 146.05 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 136.525 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99715c5e-b8e5-4b67-8e1c-0fcc5237d842")
+		)
+		(pin "1"
+			(uuid "41c7c892-4482-4031-a2d5-21bedb1e97f2")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 74.295 39.37 90)
 		(unit 1)
@@ -5579,6 +5601,114 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 185.42 26.035 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bfc925e-f8e4-4eec-9fff-a702f8d6787e")
+		(property "Reference" "J3"
+			(at 194.945 23.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 194.945 26.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 185.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae4ba8e5-17c6-42bf-a127-6fb543e7fd11")
+		)
+		(pin "1"
+			(uuid "0e468a33-4478-4f2b-bba1-dc4ad35fa162")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6263,6 +6393,222 @@
 		)
 	)
 	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 185.42 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eff9bc6-e112-4d79-b3ae-0fc74008eb96")
+		(property "Reference" "J7"
+			(at 194.945 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 194.945 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 185.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53a11868-9975-4198-8568-417ece981854")
+		)
+		(pin "1"
+			(uuid "9323c0df-ff4d-4f25-a80d-51bf89e92a59")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 136.525 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438138fa-245f-4482-9680-ae190c61a94a")
+		(property "Reference" "J2"
+			(at 146.05 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 146.05 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 136.525 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae0351f1-22bc-4e00-a00a-c53436b1ea07")
+		)
+		(pin "1"
+			(uuid "ed989453-ea6d-4127-a4f0-63bca6b39698")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 98.171 154.94 90)
 		(unit 1)
@@ -6464,7 +6810,7 @@
 		)
 	)
 	(symbol
-		(lib_name "XT60-M_1")
+		(lib_name "XT60-M_2")
 		(lib_id "XT60:XT60-M")
 		(at 42.545 24.765 0)
 		(unit 1)
@@ -6556,14 +6902,11 @@
 				(hide yes)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "1dbd340e-42f1-4a6b-92ea-3c4aaf9e02bd")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "4f5a0a12-04be-458f-9081-b527e00ebcf6")
-		)
-		(pin "3"
-			(uuid "18038ec0-1547-41b8-8ea6-9be939fbcac6")
 		)
 		(instances
 			(project "Power8Board V1"
@@ -6998,6 +7341,114 @@
 		)
 	)
 	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 42.545 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7745a312-3259-4f39-b958-b721962db8a8")
+		(property "Reference" "J4"
+			(at 52.07 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 52.07 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 42.545 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83f9f6db-b472-45b8-a653-72345a1c1092")
+		)
+		(pin "1"
+			(uuid "35472cd3-fad8-46bc-99b8-859b2aa8d664")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 170.815 39.37 90)
 		(unit 1)
@@ -7281,228 +7732,6 @@
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 42.545 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e8f2c0c-46dc-496b-be51-ec79dd29c148")
-		(property "Reference" "J4"
-			(at 52.07 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 52.07 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 42.545 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "64da89b8-8cfd-495b-b662-656e9c6ea42e")
-		)
-		(pin "N"
-			(uuid "9c5660cf-916d-4f50-8f59-7102b744b044")
-		)
-		(pin "3"
-			(uuid "9add573f-33f2-47eb-a015-3a2ac7ba0d49")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 88.9 24.765 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f03566c-4443-454c-ab07-d6b8f2346e1d")
-		(property "Reference" "J1"
-			(at 97.79 22.2249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 97.79 24.7649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 88.9 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "f0c92d1f-d16c-41d1-ad4a-b72a51773592")
-		)
-		(pin "N"
-			(uuid "35ae7d7b-202f-4077-a625-106170edad61")
-		)
-		(pin "3"
-			(uuid "f4163a03-242a-4428-b300-89e44f667220")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8655,117 +8884,6 @@
 		)
 	)
 	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 185.42 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97a54bac-463e-468e-bf7c-836290394d7f")
-		(property "Reference" "J7"
-			(at 194.31 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 194.31 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "96d54dbe-62f5-4729-8e9a-521e67aef37e")
-		)
-		(pin "N"
-			(uuid "4f2ab6cb-5b63-423d-ae66-70ab80597a8e")
-		)
-		(pin "3"
-			(uuid "85a0735e-b349-46a8-a376-350cd2264185")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XT60:XT60-M")
 		(at 238.76 30.48 0)
 		(unit 1)
@@ -8857,10 +8975,10 @@
 				(hide yes)
 			)
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "9749b081-9206-4d81-a578-fc614125fa11")
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "0bb9dac6-7db6-4d4f-9a2f-ad4e2edffb3e")
 		)
 		(pin "3"
@@ -8870,228 +8988,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 88.9 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cd2b5d5-0223-4080-8385-b8f5e3fbec31")
-		(property "Reference" "J5"
-			(at 97.79 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 97.79 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "b26e6df7-3fad-4550-be8a-81bf7a502cb2")
-		)
-		(pin "N"
-			(uuid "96381cff-59ce-4c5b-abc2-1c019451d311")
-		)
-		(pin "3"
-			(uuid "80504b61-8924-4819-8c24-35d629e723cf")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 136.525 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ee96283-c051-4f1e-bf97-4ed7f240d352")
-		(property "Reference" "J6"
-			(at 146.05 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 146.05 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 136.525 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "bbfd6e9b-ecb0-407f-b7cc-4cfe69f4351e")
-		)
-		(pin "N"
-			(uuid "f42398da-3da8-4b23-a09c-3c1c9d88eb2f")
-		)
-		(pin "3"
-			(uuid "a07cc1e6-f8f3-4be6-8ba1-2a7da44dbf92")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10564,6 +10460,114 @@
 		)
 	)
 	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 88.9 24.765 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da60d21c-57d4-4da3-81a8-fddd16ff1285")
+		(property "Reference" "J1"
+			(at 98.425 22.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 98.425 24.7649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 88.9 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f37aea7b-a8ef-412d-9773-6856782567a8")
+		)
+		(pin "1"
+			(uuid "bf6fb13c-56eb-4d7e-bc04-5be792ca68b9")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 216.535 141.605 90)
 		(unit 1)
@@ -11395,117 +11399,6 @@
 		)
 	)
 	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 136.525 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed42c52b-49cf-4c4b-a074-29f2d26bc5bb")
-		(property "Reference" "J2"
-			(at 146.05 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 146.05 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 136.525 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "38591e22-94ff-4b8b-b232-39a00d52f77d")
-		)
-		(pin "N"
-			(uuid "52443ac3-fc0d-47a2-8f2a-b159698afe74")
-		)
-		(pin "3"
-			(uuid "8491a613-35f5-461f-8aec-9ecff52d06b7")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.915 132.08 270)
 		(unit 1)
@@ -11567,117 +11460,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "XT60-M_1")
-		(lib_id "XT60:XT60-M")
-		(at 185.42 26.035 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee937508-0581-4e8a-a76c-a0915883dfbb")
-		(property "Reference" "J3"
-			(at 194.31 23.4949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT30"
-			(at 194.31 26.0349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XT30; 15A; 500V"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "AMASS"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "XT30U-M"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.884"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
-			(at 185.42 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "d84119e9-4846-4894-a12e-eb4fd1f7bacc")
-		)
-		(pin "N"
-			(uuid "97f83454-7d89-427b-b99b-a651966d5603")
-		)
-		(pin "3"
-			(uuid "5383dee4-0c07-4f21-bf1e-b0daf380ede0")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12223,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "~"
 			(at 36.83 120.015 0)
 			(effects
 				(font
@@ -12232,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 uF 0805 Ceramic Capacitor - Automotive, Bypass, Decoupling"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 36.83 120.015 0)
 			(effects
 				(font
@@ -12287,6 +12069,114 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XT60-M_2")
+		(lib_id "XT60:XT60-M")
+		(at 88.9 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce84a7a-bfad-40d9-a61b-338547295d4a")
+		(property "Reference" "J5"
+			(at 98.425 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 98.425 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT30; 15A; 500V"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "AMASS"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XT30U-M"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.884"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/xt30u-m/dc-power-connectors/amass/"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63160b73-93e0-4956-aa3f-9141242bd313")
+		)
+		(pin "1"
+			(uuid "845a3427-0fc8-4630-9d15-229db14f21e9")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J5")
 					(unit 1)
 				)
 			)

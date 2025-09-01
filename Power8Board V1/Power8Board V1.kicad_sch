@@ -5,6 +5,174 @@
 	(uuid "835b92cb-5206-4b93-b4be-2a785f4797f4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
@@ -2474,12 +2642,6 @@
 		(uuid "59f8579e-024c-4b36-816d-be368373c4f5")
 	)
 	(junction
-		(at 80.645 94.615)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5da800ca-78d3-45a7-b5c1-4e599c789473")
-	)
-	(junction
 		(at 50.8 123.825)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2616,12 +2778,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbf7e838-817d-4bbf-81cc-e729258f4ab2")
-	)
-	(junction
-		(at 80.645 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea545178-2c26-4a1a-912f-0e0ef286daae")
 	)
 	(junction
 		(at 36.83 115.57)
@@ -2775,16 +2931,6 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 94.615) (xy 94.615 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f73c2a-353c-4b14-a210-7a5dabaf9ae0")
-	)
-	(wire
-		(pts
 			(xy 171.45 28.575) (xy 174.625 28.575)
 		)
 		(stroke
@@ -2892,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "2f2f4678-89c3-4631-a693-d0bdb8d27cf8")
+	)
+	(wire
+		(pts
+			(xy 77.47 176.53) (xy 80.01 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ad8388-d585-4b00-9845-4739ef8d9703")
 	)
 	(wire
 		(pts
@@ -3325,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9faa47-166e-4b37-a638-111331b60a73")
+	)
+	(wire
+		(pts
 			(xy 246.38 111.76) (xy 250.825 111.76)
 		)
 		(stroke
@@ -3425,16 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 83.82) (xy 94.615 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d346847-44d0-49ee-8621-e8881cce178c")
-	)
-	(wire
-		(pts
 			(xy 250.825 106.68) (xy 253.365 106.68)
 		)
 		(stroke
@@ -3452,16 +3608,6 @@
 			(type default)
 		)
 		(uuid "8ed7bdd1-894b-4c14-861e-e152799bf3a7")
-	)
-	(wire
-		(pts
-			(xy 80.645 94.615) (xy 94.615 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e5b1f5-b2f7-41cd-ab36-6f3c09883bbc")
 	)
 	(wire
 		(pts
@@ -3652,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "ace761ed-0b19-4d1c-baf2-e926f783a81b")
+	)
+	(wire
+		(pts
+			(xy 77.47 173.99) (xy 80.01 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a8842-52d4-4965-9c24-9d15083e9015")
 	)
 	(wire
 		(pts
@@ -4102,16 +4258,6 @@
 			(type default)
 		)
 		(uuid "fe0fb390-c401-4c22-8cd6-c8182113c8c2")
-	)
-	(wire
-		(pts
-			(xy 80.645 83.82) (xy 94.615 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec921e8-e78f-4d2e-a9c2-df1e28055398")
 	)
 	(wire
 		(pts
@@ -5498,6 +5644,73 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 77.47 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25dc2866-476b-4963-9a58-b4a06ab26d7f")
+		(property "Reference" "#PWR025"
+			(at 81.28 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287371ca-d031-4d09-b6e1-deebb6fa2961")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7341,6 +7554,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 77.47 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7682ea54-6dc8-42dc-9d9b-df1d1063df4a")
+		(property "Reference" "#PWR024"
+			(at 81.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 74.295 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ca1b32-30a6-4f0c-8a0c-f9bc6bce2ca2")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "XT60-M_2")
 		(lib_id "XT60:XT60-M")
 		(at 42.545 44.45 0)
@@ -7508,6 +7788,115 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 85.09 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3451cf-4cc9-4f85-8bcd-51f2e6d3e498")
+		(property "Reference" "J9"
+			(at 87.63 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MR30PW-M"
+			(at 87.63 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15A 500V 3 PIN Connector"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Amass"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MR30PW-M"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$1.178"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.tme.com/us/en-us/details/mr30pw-m/dc-power-connectors/amass/"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3037466-b9fd-4a98-89cb-c6702befabae")
+		)
+		(pin "3"
+			(uuid "10fb2fcb-4f92-472f-be47-6586a61aa38f")
+		)
+		(pin "1"
+			(uuid "f1b35475-e734-42a8-bbda-336789f7c98d")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10222,6 +10611,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 77.47 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf100a0d-b170-4b16-bbc1-183ceb3c7340")
+		(property "Reference" "#PWR028"
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7ca312-f04f-437c-966f-ac19f6aa84aa")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 27.94 39.37 90)
 		(unit 1)
@@ -11077,112 +11533,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 94.615 89.535 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e36e9827-5ee0-4c6a-af1e-193ef1b1262f")
-		(property "Reference" "C6"
-			(at 97.79 87.3759 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56 uF"
-			(at 97.79 89.9159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCR1J560MCL1GS:CAP_PC_8X12_NCH"
-			(at 95.5802 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcr.pdf"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM POLY 56UF 20% 63V SMD"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Nichicon"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "PCR1J560MCL1GS"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$1.957"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/nichicon/PCR1J560MCL1GS/4694723"
-			(at 94.615 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8129694-e80d-489c-b625-d5d56b0b20e2")
-		)
-		(pin "1"
-			(uuid "f801135f-408e-49f4-b9d1-6d60c6448ee7")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "C6")
 					(unit 1)
 				)
 			)

@@ -1321,18 +1321,6 @@
 		)
 		(uuid "4676cd1d-b640-45ba-bd17-c5a8287ab57b")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 227.965 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73d46ad3-deea-4a78-aa84-0a521637648a")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 111.76 183.515 270)
@@ -1513,6 +1501,71 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 227.965 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09f4a856-954b-4fd0-84cc-ec1fcfdd0685")
+		(property "Reference" "#PWR030"
+			(at 224.155 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA/2"
+			(at 236.22 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.965 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 227.965 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f671ef11-c659-4d12-b61d-5fbbacefed83")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

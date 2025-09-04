@@ -2612,12 +2612,6 @@
 		(uuid "32702ba7-a5e5-4fa9-90a0-55d76076a5fb")
 	)
 	(junction
-		(at 50.8 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43f00837-8da8-403a-8d4e-784b1b1081ea")
-	)
-	(junction
 		(at 174.625 28.575)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2642,12 +2636,6 @@
 		(uuid "59f8579e-024c-4b36-816d-be368373c4f5")
 	)
 	(junction
-		(at 50.8 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64ca3d13-23b2-4e4b-ad46-bd60871dff69")
-	)
-	(junction
 		(at 31.75 27.305)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2670,12 +2658,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87bc59b0-dbae-437e-9a7e-eccb97ddffdd")
-	)
-	(junction
-		(at 36.83 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f73b611-810a-4be6-9390-41993f95fb1c")
 	)
 	(junction
 		(at 31.75 46.99)
@@ -2778,12 +2760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbf7e838-817d-4bbf-81cc-e729258f4ab2")
-	)
-	(junction
-		(at 36.83 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec29e263-55d8-47a7-9187-4b68e5c49274")
 	)
 	(junction
 		(at 249.555 92.71)
@@ -2981,16 +2957,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 123.825) (xy 63.5 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24680330-553b-4d6a-9611-3b0f02f28bf4")
-	)
-	(wire
-		(pts
 			(xy 210.82 132.08) (xy 222.25 132.08)
 		)
 		(stroke
@@ -3111,16 +3077,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 123.825) (xy 63.5 122.555)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40dfc78e-8eab-4493-88bd-6bbfdca6ef8f")
-	)
-	(wire
-		(pts
 			(xy 258.445 63.5) (xy 258.445 54.61)
 		)
 		(stroke
@@ -3171,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 50.8 117.475)
+			(xy 36.83 115.57) (xy 36.83 117.475)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 123.825) (xy 50.8 122.555)
+			(xy 36.83 123.825) (xy 36.83 122.555)
 		)
 		(stroke
 			(width 0)
@@ -3611,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 115.57) (xy 50.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f3223a-1208-4379-b8b2-c88fcc69c167")
-	)
-	(wire
-		(pts
 			(xy 36.195 83.82) (xy 36.195 85.725)
 		)
 		(stroke
@@ -3648,16 +3594,6 @@
 			(type default)
 		)
 		(uuid "99ca70e6-8729-40ff-8069-dd91edca7fc9")
-	)
-	(wire
-		(pts
-			(xy 36.83 115.57) (xy 36.83 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9daa3f9e-63e4-45f5-8bc4-e9d982aa787a")
 	)
 	(wire
 		(pts
@@ -3698,26 +3634,6 @@
 			(type default)
 		)
 		(uuid "9fa44d95-2082-412d-b29f-a3a39b3703ca")
-	)
-	(wire
-		(pts
-			(xy 36.83 123.825) (xy 50.8 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1034c0f-438b-4ad6-a714-e5f6fc95b234")
-	)
-	(wire
-		(pts
-			(xy 63.5 115.57) (xy 63.5 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b6337d-969e-4c2c-9472-77f93fa339fb")
 	)
 	(wire
 		(pts
@@ -3901,16 +3817,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 123.825) (xy 36.83 122.555)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7af69d-fffd-4e38-952f-80be6c0c1232")
-	)
-	(wire
-		(pts
 			(xy 69.215 146.05) (xy 71.755 146.05)
 		)
 		(stroke
@@ -3988,16 +3894,6 @@
 			(type default)
 		)
 		(uuid "cbd614bb-b1c9-487a-b9c7-55fd517658ac")
-	)
-	(wire
-		(pts
-			(xy 50.8 115.57) (xy 63.5 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc58344c-9033-4652-8173-3b6a68c4a9d5")
 	)
 	(wire
 		(pts
@@ -7385,7 +7281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 50.8 120.015 180)
+		(at 36.83 120.015 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7393,7 +7289,7 @@
 		(dnp no)
 		(uuid "68168831-d804-4952-89c9-698c2ff292c8")
 		(property "Reference" "C9"
-			(at 54.864 118.999 0)
+			(at 40.894 118.999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7297,7 @@
 			)
 		)
 		(property "Value" "100 pF"
-			(at 56.642 121.285 0)
+			(at 42.672 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7305,7 @@
 			)
 		)
 		(property "Footprint" "0805 Ceramic Capacitor:CAPC2012X140N"
-			(at 50.8 120.015 0)
+			(at 36.83 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7314,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGQ-Series.pdf"
-			(at 50.8 120.015 0)
+			(at 36.83 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7323,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100PF 100V C0G/NP0 0805"
-			(at 50.8 120.015 0)
+			(at 36.83 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7332,7 @@
 			)
 		)
 		(property "Mfr." "KYOCERA AVX"
-			(at 50.8 120.015 90)
+			(at 36.83 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7341,7 @@
 			)
 		)
 		(property "Part #" "KGQ21HCG2A101JT"
-			(at 50.8 120.015 90)
+			(at 36.83 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7350,7 @@
 			)
 		)
 		(property "Price" "$0.45"
-			(at 50.8 120.015 90)
+			(at 36.83 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7359,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/kyocera-avx/KGQ21HCG2A101JT/1601483"
-			(at 50.8 120.015 90)
+			(at 36.83 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,109 +10298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 120.015 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd419f47-1ca5-4725-9953-dcc69ca5f077")
-		(property "Reference" "C10"
-			(at 67.564 118.999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 69.342 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0805 Ceramic Capacitor:CAPC2012X140N"
-			(at 63.5 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
-			(at 63.5 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 uF 0805 Ceramic Capacitor - Automotive, Bypass, Decoupling"
-			(at 63.5 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "KEMET"
-			(at 63.5 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0805C104J5RACAUTO"
-			(at 63.5 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.109"
-			(at 63.5 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0805C104J5RACAUTO/3314919"
-			(at 63.5 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da30bedc-3dbc-43c7-aa44-95b755c4f87e")
-		)
-		(pin "1"
-			(uuid "461bd60e-f5a8-47b7-984a-fff9b1161c90")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 157.48 109.22 0)
 		(unit 1)
@@ -12316,109 +12109,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 36.83 120.015 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc4c3ba2-6ae3-4309-9eaf-df993f8c360b")
-		(property "Reference" "C8"
-			(at 40.894 118.999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 42.672 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0805 Ceramic Capacitor:CAPC2012X140N"
-			(at 36.83 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "KEMET"
-			(at 36.83 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "C0805C104J5RACAUTO"
-			(at 36.83 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.109"
-			(at 36.83 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0805C104J5RACAUTO/3314919"
-			(at 36.83 120.015 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d49e3f48-f7d9-49ed-94a1-5c0c8b91f746")
-		)
-		(pin "1"
-			(uuid "34040fd0-dfee-44f8-84fd-dfb7caca855b")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4"
-					(reference "C8")
 					(unit 1)
 				)
 			)

@@ -140,6 +140,152 @@
 				)
 			)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1000,19 +1146,35 @@
 		(color 0 0 0 0)
 		(uuid "9db62135-ef58-4144-961c-0fd7b6be281a")
 	)
+	(junction
+		(at 196.215 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae7e9fe3-9e22-4c7d-be2e-eb670e8e774e")
+	)
 	(no_connect
 		(at 125.095 86.995)
 		(uuid "47963d2a-781f-40a6-8475-56ada32f7844")
 	)
 	(wire
 		(pts
-			(xy 186.055 95.885) (xy 186.055 97.79)
+			(xy 196.215 93.98) (xy 196.215 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "126b03f3-fd83-4a3a-b477-7f3fd18e71a4")
+	)
+	(wire
+		(pts
+			(xy 196.215 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c25c9f4-b5ee-4cc1-bfca-27b7206e97bf")
 	)
 	(wire
 		(pts
@@ -1156,6 +1318,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 86.36) (xy 196.215 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22759f9-3086-4501-99f4-ea9419ca4e74")
+	)
+	(wire
+		(pts
 			(xy 155.575 86.995) (xy 158.115 86.995)
 		)
 		(stroke
@@ -1166,13 +1338,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 88.9) (xy 186.055 90.805)
+			(xy 196.215 86.36) (xy 196.215 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9bd14ac-5d5e-4876-91b4-56916ae79503")
+	)
+	(wire
+		(pts
+			(xy 182.245 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd60ef61-db81-45ac-9cbe-02c66224307f")
 	)
 	(label "IN1-"
 		(at 121.92 94.615 180)
@@ -1526,8 +1708,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 182.245 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37f639ec-0f03-4049-ba29-eb8afafd29af")
+		(property "Reference" "#PWR037"
+			(at 186.055 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.245 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a2823d-1fcb-40aa-be5e-4965f7f6ce23")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.055 93.345 180)
+		(at 196.215 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1535,7 +1784,7 @@
 		(dnp no)
 		(uuid "57c374e3-6824-4909-82ef-e7b19a776335")
 		(property "Reference" "C27"
-			(at 190.119 92.329 0)
+			(at 200.279 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1792,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 191.897 94.615 0)
+			(at 202.057 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" "0805 Ceramic Capacitor:CAPC2012X140N"
-			(at 186.055 93.345 0)
+			(at 196.215 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
-			(at 186.055 93.345 0)
+			(at 196.215 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1818,7 @@
 			)
 		)
 		(property "Description" "0.1 uF 0805 Ceramic Capacitor - Automotive, Bypass, Decoupling"
-			(at 186.055 93.345 0)
+			(at 196.215 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1827,7 @@
 			)
 		)
 		(property "Mfr." "KEMET"
-			(at 186.055 93.345 90)
+			(at 196.215 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1836,7 @@
 			)
 		)
 		(property "Part #" "C0805C104J5RACAUTO"
-			(at 186.055 93.345 90)
+			(at 196.215 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1845,7 @@
 			)
 		)
 		(property "Price" "$0.109"
-			(at 186.055 93.345 90)
+			(at 196.215 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1854,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0805C104J5RACAUTO/3314919"
-			(at 186.055 93.345 90)
+			(at 196.215 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,17 +1878,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.055 97.79 0)
+		(lib_id "power:+3.3V")
+		(at 160.655 98.425 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "89ff0e91-ff7d-4567-8806-f4b0171047c7")
-		(property "Reference" "#PWR064"
-			(at 186.055 104.14 0)
+		(uuid "698d4569-9df6-4f05-86f5-be78a139f33b")
+		(property "Reference" "#PWR0122"
+			(at 156.845 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,16 +1896,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 186.055 102.87 0)
+		(property "Value" "+3.3VA/5"
+			(at 164.465 98.4249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 186.055 97.79 0)
+			(at 160.655 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1915,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.055 97.79 0)
+			(at 160.655 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.655 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d02c07a-bfa8-4e74-97eb-c002dc1f5a93")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.215 95.885 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ff0e91-ff7d-4567-8806-f4b0171047c7")
+		(property "Reference" "#PWR064"
+			(at 196.215 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.215 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.215 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.055 97.79 0)
+			(at 196.215 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,17 +2011,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.055 88.9 0)
+		(lib_id "Device:FerriteBead")
+		(at 189.23 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "979052af-f574-42d6-8c49-5d5f8380dbae")
-		(property "Reference" "#PWR063"
-			(at 186.055 92.71 0)
+		(uuid "b06d74ba-bcbd-4687-ac3b-afec9e182f4e")
+		(property "Reference" "FB5"
+			(at 189.1792 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 189.1792 81.915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MPZ2012S102ATD25:BEADC2012X105N"
+			(at 189.23 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,16 +2045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 186.055 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.055 88.9 0)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf"
+			(at 189.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,8 +2054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.055 88.9 0)
+		(property "Description" "FERRITE BEAD 1 KOHM 0805 1LN"
+			(at 189.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,8 +2063,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.055 88.9 0)
+		(property "Mfr." "TDK Corporation"
+			(at 189.23 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MPZ2012S102ATD25"
+			(at 189.23 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.084"
+			(at 189.23 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S102ATD25/5040327"
+			(at 189.23 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,12 +2100,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d64c4687-5494-4005-a67d-89f4fe2c9bfa")
+			(uuid "2c9bf4a7-ea56-44fc-a30f-6b1c79279bae")
+		)
+		(pin "2"
+			(uuid "2e948950-33de-48fe-a723-97f74624993c")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
-					(reference "#PWR063")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -1822,6 +2176,73 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 199.39 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc8fc0c1-9861-437e-ade7-71fafdd0ae6f")
+		(property "Reference" "#PWR063"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA/5"
+			(at 203.2 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a968b5c9-1728-48b1-b322-58406701dc02")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1954,73 +2375,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 160.655 98.425 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f70bcc58-b670-4570-b2b9-a654d6cffc1c")
-		(property "Reference" "#PWR0122"
-			(at 156.845 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 163.83 98.4249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.655 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.655 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.655 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fa9c417-b7e9-4497-acf5-cfb4fb6a0843")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/e1468da4-9b9d-4945-991c-612b8553fd9a"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)

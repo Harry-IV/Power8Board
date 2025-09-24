@@ -3854,6 +3854,110 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 73.025 57.785 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65792b2-6082-4644-8ca7-795025979568")
+		(property "Reference" "R5"
+			(at 73.025 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 73.025 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.025 59.563 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
+			(at 73.025 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 680 OHM 1% 1/10W 0603"
+			(at 73.025 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity Passive Product"
+			(at 73.025 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CRGCQ0603F680R"
+			(at 73.025 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.028"
+			(at 73.025 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
+			(at 73.025 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7758b507-90c0-470c-89f6-a4ab7bb4dcae")
+		)
+		(pin "1"
+			(uuid "7ad6c29e-c46d-46d7-a144-be9e0af619e9")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 74.295 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4373,110 +4477,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.025 57.785 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db30b4e8-d5f9-4382-9c11-0d3a3ce3dd1a")
-		(property "Reference" "R25"
-			(at 73.025 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 73.025 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.025 59.563 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 73.025 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 73.025 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "TE Connectivity Passive Product"
-			(at 73.025 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "CRGCQ0603F680R"
-			(at 73.025 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.028"
-			(at 73.025 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 73.025 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1a44b24-b5a4-4588-9c7b-3926ab180438")
-		)
-		(pin "1"
-			(uuid "ee99b49f-2c40-4310-b5b5-77b48be44f9b")
-		)
-		(instances
-			(project ""
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610"
-					(reference "R25")
 					(unit 1)
 				)
 			)

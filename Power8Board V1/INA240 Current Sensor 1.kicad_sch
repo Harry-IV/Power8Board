@@ -2152,8 +2152,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca9ebce-2a42-4846-b6dc-f48829ec4698")
-		(property "Reference" "R5"
-			(at 140.335 111.125 90)
+		(property "Reference" "R25"
+			(at 140.335 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2161,7 @@
 			)
 		)
 		(property "Value" "0.0033"
-			(at 140.335 113.665 90)
+			(at 140.335 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2240,7 @@
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/64832d79-2054-4fdb-82f6-de66896e6610/db9137a7-4e97-40ba-b5e6-2da12e50f672"
-					(reference "R5")
+					(reference "R25")
 					(unit 1)
 				)
 			)

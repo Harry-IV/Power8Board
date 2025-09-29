@@ -1679,6 +1679,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_ADC:ADS1015IDGS")
+		(at 137.795 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25083013-6057-4ac9-9f95-79b59eadb6fe")
+		(property "Reference" "U14"
+			(at 139.9891 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015IDGS"
+			(at 139.9891 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 137.795 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+			(at 136.525 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 137.795 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 137.795 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ADS1015IDGSR"
+			(at 137.795 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$2.98"
+			(at 137.795 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
+			(at 137.795 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfd446c3-638f-4bab-8da3-092b2846d9ee")
+		)
+		(pin "9"
+			(uuid "e22c3b18-d1e9-4606-b834-f91a6afa8512")
+		)
+		(pin "7"
+			(uuid "1ef598eb-094b-44a9-a60e-b9f5f0c93e71")
+		)
+		(pin "4"
+			(uuid "a8b17ab0-1ece-41d2-9cb0-ecc6d6ee58ca")
+		)
+		(pin "6"
+			(uuid "2b61db69-6929-48d9-a0c7-6069b352adea")
+		)
+		(pin "8"
+			(uuid "b8653792-1c05-4ecb-ba64-f67901aaa948")
+		)
+		(pin "1"
+			(uuid "158056f7-3aae-4ae7-b249-e03fa115e464")
+		)
+		(pin "10"
+			(uuid "c0756d10-e310-4464-896d-a8e1190ba9fc")
+		)
+		(pin "3"
+			(uuid "eeec544b-1ec7-4d96-863b-45097c226acd")
+		)
+		(pin "5"
+			(uuid "39120e24-645b-45f6-aa24-922ab65313ce")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.055 120.65 0)
 		(unit 1)
@@ -1845,100 +1975,6 @@
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 137.795 114.935 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63d7fc51-f853-470e-9ea3-1fe7bc175b2a")
-		(property "Reference" "U14"
-			(at 139.9891 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS1015IDGS"
-			(at 139.9891 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 137.795 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 136.525 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 137.795 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "f0931bbd-2daf-4ab5-90f5-7fdd756fb030")
-		)
-		(pin "5"
-			(uuid "c107a3c8-b920-45e0-80e6-7ba0ef99c82f")
-		)
-		(pin "6"
-			(uuid "9b2d8f8b-c49e-49bf-abe1-f993e077abfb")
-		)
-		(pin "2"
-			(uuid "547397bd-1474-4a23-b6ef-5b7993ba4a40")
-		)
-		(pin "4"
-			(uuid "aef69d5c-bd44-4c8a-8b70-7d9730697cd1")
-		)
-		(pin "10"
-			(uuid "c65df9b7-3950-44b7-ac4f-269058e3ec48")
-		)
-		(pin "3"
-			(uuid "77c5d1bb-7c26-4ea5-8e07-1b1e94fcccef")
-		)
-		(pin "7"
-			(uuid "ed895b19-6710-45d6-9585-2ee8b8beb030")
-		)
-		(pin "1"
-			(uuid "d16da8f3-3aab-48f2-b2e3-0c9c59cc0345")
-		)
-		(pin "9"
-			(uuid "b99d3d78-a294-4faf-a950-94f196c6df67")
-		)
-		(instances
-			(project ""
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "U14")
 					(unit 1)
 				)
 			)

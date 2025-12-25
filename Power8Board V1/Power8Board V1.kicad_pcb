@@ -1240,7 +1240,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/64832d79-2054-4fdb-82f6-de66896e6610/3581352b-4b94-4488-9f17-1d849a571506/30090cc8-ae3b-4713-9bf5-250f8013df33")
 		(sheetname "INA240 Current Sensor 7")
-		(sheetfile "INA240 Current Sensor 7.kicad_sch")
+		(sheetfile "Current Sensors/INA240 Current Sensor 7.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.707999 0.983)
@@ -12523,7 +12523,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/64832d79-2054-4fdb-82f6-de66896e6610/3581352b-4b94-4488-9f17-1d849a571506/54e98128-7914-4796-9b86-d0578909dea0")
 		(sheetname "INA240 Current Sensor 7")
-		(sheetfile "INA240 Current Sensor 7.kicad_sch")
+		(sheetfile "Current Sensors/INA240 Current Sensor 7.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.684999 -0.96)
@@ -16783,7 +16783,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/64832d79-2054-4fdb-82f6-de66896e6610/3581352b-4b94-4488-9f17-1d849a571506/190a03bd-786b-46b5-adfb-d05414521cf5")
 		(sheetname "INA240 Current Sensor 7")
-		(sheetfile "INA240 Current Sensor 7.kicad_sch")
+		(sheetfile "Current Sensors/INA240 Current Sensor 7.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.30226 1.8415)
@@ -19263,7 +19263,7 @@
 		(property ki_fp_filters "PW0008A_N_TEX PW0008A_M PW0008A_L")
 		(path "/64832d79-2054-4fdb-82f6-de66896e6610/3581352b-4b94-4488-9f17-1d849a571506/410ffb42-afff-463d-8a55-fe3f464ff4b5")
 		(sheetname "INA240 Current Sensor 7")
-		(sheetfile "INA240 Current Sensor 7.kicad_sch")
+		(sheetfile "Current Sensors/INA240 Current Sensor 7.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.3241 1.6256)
@@ -26847,28 +26847,27 @@
 			)
 		)
 	)
-	(footprint "UWS-5_10-Q48P-C:UWS-5_10-Q48P-C"
+	(footprint "UWS-5_10-Q48:UWS-5_10-Q48"
 		(layer "F.Cu")
 		(uuid "ce4ce5b6-d179-428b-9424-bca99f365447")
 		(at 150 136.28 -90)
 		(property "Reference" "U3"
-			(at 0.22 0 0)
+			(at 0 -0.5 -90)
 			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "49af6021-44bf-49a9-866a-145de5f583a3")
+			(layer "F.SilkS")
+			(uuid "b4e6c587-9d4d-46fa-b022-0845e9e24273")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
+					(size 1 1)
+					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "~"
 			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f55625cb-e8bf-4427-a0c1-d2a39a666966")
+			(uuid "413d9a82-c55c-4666-aef0-facf5f2c26fc")
 			(effects
 				(font
 					(size 1 1)
@@ -26876,12 +26875,12 @@
 				)
 			)
 		)
-		(property "Footprint" "UWS-5_10-Q48P-C:UWS-5_10-Q48P-C"
+		(property "Footprint" "UWS-5_10-Q48:UWS-5_10-Q48"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcfe8d2a-4c48-45ea-a17b-0b7e17295e3e")
+			(uuid "18bab469-a6ba-4018-a6be-66470820dfcd")
 			(effects
 				(font
 					(size 1 1)
@@ -26894,7 +26893,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f08f9150-b92d-48b5-9cf8-26dbc26c69e1")
+			(uuid "42fcc5f6-8b68-48a9-ba82-9c0506d7ed02")
 			(effects
 				(font
 					(size 1 1)
@@ -26907,7 +26906,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3805e531-7de7-4509-9326-3c1dd820cd77")
+			(uuid "ecf1eeb6-8344-4036-a228-d4313622f265")
 			(effects
 				(font
 					(size 1 1)
@@ -26920,7 +26919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4498b41-3de7-42bf-bbb1-66547473b9a3")
+			(uuid "903573f8-fa6a-4dfe-a323-cdc039091844")
 			(effects
 				(font
 					(size 1 1)
@@ -26933,7 +26932,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74eb596f-a875-4a55-a7f7-db6ac687c622")
+			(uuid "92945b03-779f-431e-874d-e0a7b476b468")
 			(effects
 				(font
 					(size 1 1)
@@ -26946,7 +26945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08bea4cf-6dec-46b4-9753-e68fab275cf0")
+			(uuid "8ca82510-10ce-482a-a121-9639a57c8f99")
 			(effects
 				(font
 					(size 1 1)
@@ -26959,7 +26958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb31a566-4f2e-4507-801e-5f7f4dcf3dd5")
+			(uuid "35da2f05-10c2-459a-9d96-59e9c728f4d3")
 			(effects
 				(font
 					(size 1 1)
@@ -26980,13 +26979,13 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "f83bbf3a-c9b8-4d77-88e7-fb4ae7f44c2e")
+			(uuid "30675031-d6df-46ee-8e43-5bbea3829b67")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "22701e3d-1666-4649-8a3a-26dcd2893ad4")
+			(uuid "994e95ba-6e4f-47c1-bd57-9cf712d8dc3d")
 			(effects
 				(font
 					(size 1 1)
@@ -27003,7 +27002,7 @@
 			(net 2 "+48V")
 			(pinfunction "Vin+")
 			(pintype "power_in")
-			(uuid "101f64f1-c432-4a36-9dd3-0af2976153d5")
+			(uuid "1cd17268-c7d2-4487-a465-1bed2959936a")
 		)
 		(pad "2" thru_hole circle
 			(at -13.97 0 270)
@@ -27014,7 +27013,7 @@
 			(net 23 "Net-(U3-On{slash}Off)")
 			(pinfunction "On/Off")
 			(pintype "input")
-			(uuid "419b92d2-bc39-4fcc-bdd6-6fe806f5a87e")
+			(uuid "0dc11fe9-5be5-4e4c-b2fc-75aac892a57d")
 		)
 		(pad "3" thru_hole circle
 			(at -13.97 -7.62 270)
@@ -27025,7 +27024,7 @@
 			(net 1 "GND")
 			(pinfunction "Vin-")
 			(pintype "power_in")
-			(uuid "887117ea-7a1f-49bf-8191-e4fda44b894b")
+			(uuid "30114a47-49da-41f6-8dc5-1da5c2ced35d")
 		)
 		(pad "4" thru_hole circle
 			(at 13.97 -7.62 270)
@@ -27036,7 +27035,7 @@
 			(net 1 "GND")
 			(pinfunction "Vout-")
 			(pintype "power_out")
-			(uuid "52f80d6e-4d99-425e-8304-eee00ac936d8")
+			(uuid "85b3be87-6b27-4193-bbb6-c6fd2d33f8e7")
 		)
 		(pad "5" thru_hole circle
 			(at 13.97 -3.81 270)
@@ -27047,7 +27046,7 @@
 			(net 1 "GND")
 			(pinfunction "Sense-")
 			(pintype "input")
-			(uuid "80529088-d8df-4a97-bc78-ebf287b6404c")
+			(uuid "5ddf1924-c267-4647-a8c9-44a2e7a485d6")
 		)
 		(pad "6" thru_hole circle
 			(at 13.97 0 270)
@@ -27058,7 +27057,7 @@
 			(net 56 "Net-(U3-Trim)")
 			(pinfunction "Trim")
 			(pintype "input")
-			(uuid "85d2ee42-bfe1-40af-b373-badfdb118ade")
+			(uuid "dff8ff8a-d99b-40d9-a861-e2a14d6add69")
 		)
 		(pad "7" thru_hole circle
 			(at 13.97 3.81 270)
@@ -27069,7 +27068,7 @@
 			(net 27 "+5V")
 			(pinfunction "Sense+")
 			(pintype "input")
-			(uuid "36edaa70-1639-4beb-8834-7d70ae2115b5")
+			(uuid "d11486ad-b1e9-4697-9622-3ba571bf663f")
 		)
 		(pad "8" thru_hole circle
 			(at 13.97 7.62 270)
@@ -27080,7 +27079,7 @@
 			(net 27 "+5V")
 			(pinfunction "Vout+")
 			(pintype "power_out")
-			(uuid "4bcb189b-dce8-4003-89a4-f1b05ea83c60")
+			(uuid "c454fc91-6c2e-4d00-9306-d156db2d42ed")
 		)
 	)
 	(footprint "107AVG063MFBJ:CAP_AVG-8x12_ILC"

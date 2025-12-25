@@ -5587,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "UWS-5_10-Q48P-C:UWS-5_10-Q48P-C"
+		(property "Footprint" "UWS-5_10-Q48:UWS-5_10-Q48"
 			(at 56.515 97.79 0)
 			(effects
 				(font

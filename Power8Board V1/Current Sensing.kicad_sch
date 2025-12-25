@@ -5165,7 +5165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 7.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 7.kicad_sch"
 			(at 157.9626 118.5676 0)
 			(effects
 				(font

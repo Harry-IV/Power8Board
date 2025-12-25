@@ -38645,7 +38645,7 @@
 	(segment
 		(start 147.075 104.1)
 		(end 147.075 104.85)
-		(width 0.3)
+		(width 0.4)
 		(layer "In2.Cu")
 		(net 49)
 		(uuid "1910310d-556d-4ef0-9230-dc675977d110")
@@ -38661,7 +38661,7 @@
 	(segment
 		(start 147.075 104.85)
 		(end 138.25 113.675)
-		(width 0.3)
+		(width 0.4)
 		(layer "In2.Cu")
 		(net 49)
 		(uuid "9face479-a4b3-4543-8faa-ab59b485d154")

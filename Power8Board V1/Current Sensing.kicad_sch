@@ -791,112 +791,112 @@
 		)
 	)
 	(junction
-		(at 111.76 180.975)
+		(at 93.98 179.705)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ade2ee-24ec-4bbd-87a5-3e2be4d86694")
 	)
 	(junction
-		(at 83.185 81.28)
+		(at 76.6826 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c1bba7b-1341-4961-ba5a-1eff9d97e940")
 	)
 	(junction
-		(at 192.405 57.15)
+		(at 201.422 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "178f23dd-cd61-40ef-b8cf-7ae40b4b570f")
 	)
 	(junction
-		(at 192.405 81.915)
+		(at 201.422 61.595)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1addd907-76b2-43b9-b00a-0c2a49a2b639")
 	)
 	(junction
-		(at 137.16 160.02)
+		(at 119.38 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ed1a205-8637-42d4-b84e-05435ca6e3a9")
 	)
 	(junction
-		(at 81.28 181.61)
+		(at 65.405 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c755b6f-9db7-4b4d-a16f-bcf8bddb2b33")
 	)
 	(junction
-		(at 137.16 180.975)
+		(at 119.38 179.705)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1fbbf1-7508-45ec-b6cc-eaabdbe235e8")
 	)
 	(junction
-		(at 83.185 57.785)
+		(at 76.6826 37.465)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75161eef-4248-4bac-89c0-dd1381acc889")
 	)
 	(junction
-		(at 55.88 160.655)
+		(at 40.005 159.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87f524f5-1a05-4ea4-99d8-f7fcc8ebd58c")
 	)
 	(junction
-		(at 192.405 131.445)
+		(at 201.422 111.125)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "976fb0a8-0fa9-4172-a9f3-f230b9a42a31")
 	)
 	(junction
-		(at 83.185 130.81)
+		(at 76.6826 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97fb8e04-bd15-4dd0-987b-a6b7bffe110d")
 	)
 	(junction
-		(at 111.76 160.02)
+		(at 93.98 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eefda4b-89bd-41c1-9e1b-59bd60a6a569")
 	)
 	(junction
-		(at 83.185 106.045)
+		(at 76.6826 85.725)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "accaaadd-294a-4af3-8980-bc00f164481f")
 	)
 	(junction
-		(at 55.88 181.61)
+		(at 40.005 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc8b5a68-25f9-4bc5-9e8b-5c9403539053")
 	)
 	(junction
-		(at 192.405 107.315)
+		(at 201.422 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92afd02-6623-4bd7-985f-0dddf61e1caf")
 	)
 	(junction
-		(at 81.28 160.655)
+		(at 65.405 159.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db0f58ae-4018-43bb-9592-2df99bb7e2a5")
 	)
 	(no_connect
-		(at 126.365 88.265)
+		(at 119.8626 67.945)
 		(uuid "585ad209-5c26-47b9-b062-80b09eccd8cc")
 	)
 	(no_connect
-		(at 236.22 88.9)
+		(at 245.237 68.58)
 		(uuid "cf72eaed-74ce-4b5c-a45c-8ae62bf4de4a")
 	)
 	(wire
 		(pts
-			(xy 78.105 130.81) (xy 83.185 130.81)
+			(xy 71.6026 110.49) (xy 76.6826 110.49)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +906,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 140.335) (xy 83.185 142.24)
+			(xy 76.6826 120.015) (xy 76.6826 121.92)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 160.02) (xy 137.16 166.37)
+			(xy 119.38 158.75) (xy 119.38 165.1)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 103.505) (xy 116.205 106.045)
+			(xy 109.7026 83.185) (xy 109.7026 85.725)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 67.31) (xy 83.185 69.215)
+			(xy 76.6826 46.99) (xy 76.6826 48.895)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 66.675) (xy 192.405 68.58)
+			(xy 201.422 46.355) (xy 201.422 48.26)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 98.425) (xy 129.54 98.425)
+			(xy 119.8626 78.105) (xy 123.0376 78.105)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 130.81) (xy 100.33 130.81)
+			(xy 76.6826 110.49) (xy 93.8276 110.49)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 91.44) (xy 209.55 57.15)
+			(xy 218.567 71.12) (xy 218.567 36.83)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 160.655) (xy 64.77 160.655)
+			(xy 40.005 159.385) (xy 48.895 159.385)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 57.785) (xy 83.185 59.69)
+			(xy 76.6826 37.465) (xy 76.6826 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 55.88 160.655)
+			(xy 40.005 155.575) (xy 40.005 159.385)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.6524 81.28) (xy 70.485 81.28)
+			(xy 57.15 60.96) (xy 63.9826 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 57.15) (xy 209.55 57.15)
+			(xy 201.422 36.83) (xy 218.567 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 81.28) (xy 97.155 81.28)
+			(xy 76.6826 60.96) (xy 90.6526 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 160.655) (xy 81.28 156.845)
+			(xy 65.405 159.385) (xy 65.405 155.575)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 95.885) (xy 97.155 106.045)
+			(xy 90.6526 75.565) (xy 90.6526 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 81.28) (xy 83.185 81.28)
+			(xy 71.6026 60.96) (xy 76.6826 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 106.045) (xy 97.155 106.045)
+			(xy 76.6826 85.725) (xy 90.6526 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 239.395 93.98)
+			(xy 245.237 73.66) (xy 248.412 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 106.045) (xy 83.185 107.95)
+			(xy 76.6826 85.725) (xy 76.6826 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 107.315) (xy 185.42 107.315)
+			(xy 201.422 86.995) (xy 194.437 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 107.315) (xy 192.405 107.315)
+			(xy 215.392 86.995) (xy 201.422 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 181.61) (xy 81.28 183.515)
+			(xy 65.405 180.34) (xy 65.405 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 96.52) (xy 206.375 107.315)
+			(xy 215.392 76.2) (xy 215.392 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 160.655) (xy 81.28 160.655)
+			(xy 56.515 159.385) (xy 65.405 159.385)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 131.445) (xy 192.405 133.35)
+			(xy 201.422 111.125) (xy 201.422 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 81.915) (xy 192.405 83.82)
+			(xy 201.422 61.595) (xy 201.422 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 116.84) (xy 192.405 118.745)
+			(xy 201.422 96.52) (xy 201.422 98.425)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 140.97) (xy 192.405 142.875)
+			(xy 201.422 120.65) (xy 201.422 122.555)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 156.845) (xy 111.76 160.02)
+			(xy 93.98 154.94) (xy 93.98 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 57.15) (xy 192.405 59.055)
+			(xy 201.422 36.83) (xy 201.422 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 57.15) (xy 185.42 57.15)
+			(xy 201.422 36.83) (xy 194.437 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 184.15) (xy 55.88 181.61)
+			(xy 40.005 182.88) (xy 40.005 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 120.65 160.02)
+			(xy 93.98 158.75) (xy 102.87 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.1452 81.915) (xy 177.8 81.915)
+			(xy 180.1622 61.595) (xy 186.817 61.595)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 226.06 106.68)
+			(xy 235.077 83.82) (xy 235.077 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 209.55 131.445)
+			(xy 218.567 78.74) (xy 218.567 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 130.81) (xy 83.185 132.715)
+			(xy 76.6826 110.49) (xy 76.6826 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 93.345) (xy 106.045 93.345)
+			(xy 90.6526 73.025) (xy 99.5426 73.025)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 215.9 99.06)
+			(xy 218.567 78.74) (xy 224.917 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 106.045) (xy 83.185 106.045)
+			(xy 71.6026 85.725) (xy 76.6826 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 160.02) (xy 137.16 156.21)
+			(xy 119.38 158.75) (xy 119.38 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 160.655) (xy 81.28 167.005)
+			(xy 65.405 159.385) (xy 65.405 165.735)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.805) (xy 106.045 90.805)
+			(xy 93.8276 70.485) (xy 99.5426 70.485)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +1346,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 98.425) (xy 106.045 98.425)
+			(xy 93.8276 78.105) (xy 99.5426 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 160.02) (xy 137.16 160.02)
+			(xy 110.49 158.75) (xy 119.38 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 81.915) (xy 206.375 81.915)
+			(xy 201.422 61.595) (xy 215.392 61.595)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1376,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 57.785) (xy 83.185 57.785)
+			(xy 70.3326 37.465) (xy 76.6826 37.465)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +1386,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 174.625) (xy 55.88 181.61)
+			(xy 40.005 173.355) (xy 40.005 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 81.28) (xy 83.185 83.185)
+			(xy 76.6826 60.96) (xy 76.6826 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 95.885) (xy 106.045 95.885)
+			(xy 90.6526 75.565) (xy 99.5426 75.565)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 96.52) (xy 239.395 96.52)
+			(xy 245.237 76.2) (xy 248.412 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 91.44) (xy 192.405 93.345)
+			(xy 201.422 71.12) (xy 201.422 73.025)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1436,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 131.445) (xy 185.42 131.445)
+			(xy 201.422 111.125) (xy 194.437 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.785) (xy 69.215 57.785)
+			(xy 56.9976 37.465) (xy 62.7126 37.465)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 57.785) (xy 100.33 90.805)
+			(xy 93.8276 37.465) (xy 93.8276 70.485)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 181.61) (xy 81.28 174.625)
+			(xy 65.405 180.34) (xy 65.405 173.355)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 96.52) (xy 215.9 96.52)
+			(xy 215.392 76.2) (xy 224.917 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 90.805) (xy 83.185 92.71)
+			(xy 76.6826 70.485) (xy 76.6826 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.315) (xy 170.815 107.315)
+			(xy 186.817 86.995) (xy 179.832 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 93.345) (xy 129.54 93.345)
+			(xy 119.8626 73.025) (xy 123.0376 73.025)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.975) (xy 137.16 182.88)
+			(xy 119.38 179.705) (xy 119.38 182.245)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 183.515) (xy 111.76 180.975)
+			(xy 93.98 182.245) (xy 93.98 179.705)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 57.15) (xy 170.688 57.15)
+			(xy 186.817 36.83) (xy 179.705 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 81.28) (xy 97.155 93.345)
+			(xy 90.6526 60.96) (xy 90.6526 73.025)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 95.885) (xy 129.54 95.885)
+			(xy 119.8626 75.565) (xy 123.0376 75.565)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 93.98) (xy 206.375 81.915)
+			(xy 215.392 73.66) (xy 215.392 61.595)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 131.445) (xy 192.405 131.445)
+			(xy 218.567 111.125) (xy 201.422 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.915) (xy 192.405 81.915)
+			(xy 194.437 61.595) (xy 201.422 61.595)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 115.57) (xy 83.185 117.475)
+			(xy 76.6826 95.25) (xy 76.6826 97.155)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 57.785) (xy 100.33 57.785)
+			(xy 76.6826 37.465) (xy 93.8276 37.465)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 78.74) (xy 226.06 81.28)
+			(xy 235.077 58.42) (xy 235.077 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 173.99) (xy 111.76 180.975)
+			(xy 93.98 172.72) (xy 93.98 179.705)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 131.445) (xy 170.7896 131.445)
+			(xy 186.817 111.125) (xy 179.8066 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 99.06) (xy 239.395 99.06)
+			(xy 245.237 78.74) (xy 248.412 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 160.655) (xy 55.88 167.005)
+			(xy 40.005 159.385) (xy 40.005 165.735)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.8048 130.81) (xy 70.485 130.81)
+			(xy 57.3024 110.49) (xy 63.9826 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 78.105) (xy 116.205 80.645)
+			(xy 109.7026 57.785) (xy 109.7026 60.325)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.627 106.045) (xy 70.485 106.045)
+			(xy 57.1246 85.725) (xy 63.9826 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 107.315) (xy 192.405 109.22)
+			(xy 201.422 86.995) (xy 201.422 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 180.975) (xy 137.16 180.975)
+			(xy 93.98 179.705) (xy 119.38 179.705)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 98.425) (xy 100.33 130.81)
+			(xy 93.8276 78.105) (xy 93.8276 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 181.61) (xy 81.28 181.61)
+			(xy 40.005 180.34) (xy 65.405 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 111.76 166.37)
+			(xy 93.98 158.75) (xy 93.98 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 91.44) (xy 215.9 91.44)
+			(xy 218.567 71.12) (xy 224.917 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.975) (xy 137.16 173.99)
+			(xy 119.38 179.705) (xy 119.38 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 93.98) (xy 206.375 93.98)
+			(xy 224.917 73.66) (xy 215.392 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1774,9 +1774,81 @@
 		)
 		(uuid "fe8b484a-00a8-4b3e-8672-0b506bfb029c")
 	)
+	(rectangle
+		(start 28.575 139.7)
+		(end 137.16 191.77)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 170ceb9d-7281-44b0-8157-cf4d24c1057a)
+	)
+	(rectangle
+		(start 151.765 16.51)
+		(end 269.24 131.445)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b06027ef-a6d2-483d-9384-3cc0dbc5459a)
+	)
+	(rectangle
+		(start 28.575 16.51)
+		(end 137.16 131.445)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf204f48-487c-4018-8f6b-655e4bd25eb4)
+	)
+	(text "Thruster Current Sensors - Right"
+		(exclude_from_sim no)
+		(at 180.34 22.098 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "25060788-26ed-4294-a557-a1a254dc60c5")
+	)
+	(text "Power Filtering for Analog Supply"
+		(exclude_from_sim no)
+		(at 55.118 144.78 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "f8382dd5-9acb-4734-b20f-3b86d0c2319a")
+	)
+	(text "Thruster Current Sensors - Left"
+		(exclude_from_sim no)
+		(at 56.388 22.098 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "ff06ce82-5b72-4620-84b9-225c8ad7fc45")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 192.405 142.875 270)
+		(at 201.422 122.555 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1788,7 +1860,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 55.88 184.15 270)
+		(at 40.005 182.88 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1800,7 +1872,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 129.54 95.885 0)
+		(at 123.0376 75.565 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1812,7 +1884,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 83.185 142.24 270)
+		(at 76.6826 121.92 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1824,7 +1896,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 129.54 98.425 0)
+		(at 123.0376 78.105 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1836,7 +1908,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 192.405 68.58 270)
+		(at 201.422 48.26 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1848,7 +1920,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 83.185 117.475 270)
+		(at 76.6826 97.155 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1932,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 111.76 183.515 270)
+		(at 93.98 182.245 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1872,7 +1944,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 137.16 182.88 270)
+		(at 119.38 182.245 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1884,7 +1956,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 239.395 93.98 0)
+		(at 248.412 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1896,7 +1968,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 83.185 92.71 270)
+		(at 76.6826 72.39 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1908,7 +1980,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 116.205 106.045 270)
+		(at 109.7026 85.725 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1920,7 +1992,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 81.28 183.515 270)
+		(at 65.405 182.88 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1932,7 +2004,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 226.06 106.68 270)
+		(at 235.077 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1944,7 +2016,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 239.395 96.52 0)
+		(at 248.412 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1956,7 +2028,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 192.405 118.745 270)
+		(at 201.422 98.425 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1968,7 +2040,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 192.405 93.345 270)
+		(at 201.422 73.025 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1980,7 +2052,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 129.54 93.345 0)
+		(at 123.0376 73.025 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1992,7 +2064,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 111.76 156.845 90)
+		(at 93.98 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2004,7 +2076,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 83.185 69.215 270)
+		(at 76.6826 48.895 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2016,7 +2088,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 55.88 157.48 90)
+		(at 40.005 155.575 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2028,7 +2100,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 137.16 156.21 0)
+		(at 119.38 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2036,7 +2108,7 @@
 		(dnp no)
 		(uuid "09102a36-dc95-48d3-96b5-84f8d3aa1f33")
 		(property "Reference" "#PWR027"
-			(at 137.16 160.02 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2117,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/2"
-			(at 137.16 151.638 0)
+			(at 119.38 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 156.21 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 156.21 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 137.16 156.21 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2165,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 239.395 99.06 270)
+		(at 248.412 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2101,7 +2173,7 @@
 		(dnp no)
 		(uuid "09f4a856-954b-4fd0-84cc-ec1fcfdd0685")
 		(property "Reference" "#PWR030"
-			(at 235.585 99.06 0)
+			(at 244.602 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2182,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/2"
-			(at 247.65 99.06 90)
+			(at 256.667 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.395 99.06 0)
+			(at 248.412 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.395 99.06 0)
+			(at 248.412 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 239.395 99.06 0)
+			(at 248.412 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.185 63.5 0)
+		(at 76.6826 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2167,7 +2239,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b0504ab-a89c-4f7e-ace6-1a3aad57b470")
 		(property "Reference" "C4"
-			(at 86.36 62.2299 0)
+			(at 79.8576 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2248,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 86.36 64.7699 0)
+			(at 79.8576 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2257,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.1502 67.31 0)
+			(at 77.6478 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2266,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2275,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2284,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2293,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2302,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2311,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 83.185 63.5 0)
+			(at 76.6826 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2336,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.295 130.81 90)
+		(at 67.7926 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2273,7 +2345,7 @@
 		(fields_autoplaced yes)
 		(uuid "25271cbd-79dc-4f43-ba5f-1d8a43e4003a")
 		(property "Reference" "R28"
-			(at 74.295 125.095 90)
+			(at 67.7926 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2353,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 74.295 127.635 90)
+			(at 67.7926 107.315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2361,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.295 132.588 90)
+			(at 67.7926 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 74.295 130.81 0)
+			(at 67.7926 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2379,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 74.295 130.81 0)
+			(at 67.7926 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2388,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 74.295 130.81 90)
+			(at 67.7926 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2397,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 74.295 130.81 90)
+			(at 67.7926 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2406,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 74.295 130.81 90)
+			(at 67.7926 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2415,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 74.295 130.81 90)
+			(at 67.7926 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2440,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 170.18 0)
+		(at 119.38 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2377,7 +2449,7 @@
 		(fields_autoplaced yes)
 		(uuid "266db6b2-a75f-4d14-9b77-88eed0c58063")
 		(property "Reference" "C23"
-			(at 140.97 168.9099 0)
+			(at 123.19 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2458,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 140.97 171.4499 0)
+			(at 123.19 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2467,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.1252 173.99 0)
+			(at 120.3452 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2476,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2485,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2494,7 @@
 			)
 		)
 		(property "Mfr." "KEMET"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2503,7 @@
 			)
 		)
 		(property "Part #" "C0603C104K5RACTU"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2512,7 @@
 			)
 		)
 		(property "Price" "$0.011"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2521,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
-			(at 137.16 170.18 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2546,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 192.405 113.03 0)
+		(at 201.422 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2483,7 +2555,7 @@
 		(fields_autoplaced yes)
 		(uuid "338e8f0a-1e9c-4202-af45-0e23ddb0960c")
 		(property "Reference" "C34"
-			(at 195.58 111.7599 0)
+			(at 204.597 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2564,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 195.58 114.2999 0)
+			(at 204.597 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.3702 116.84 0)
+			(at 202.3872 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2582,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2591,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2600,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2609,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2618,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2627,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 192.405 113.03 0)
+			(at 201.422 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2652,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 192.405 87.63 0)
+		(at 201.422 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2589,7 +2661,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7704c1-7f69-4f87-9b58-b4ca10dd624b")
 		(property "Reference" "C33"
-			(at 195.58 86.3599 0)
+			(at 204.597 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2670,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 195.58 88.8999 0)
+			(at 204.597 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2679,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.3702 91.44 0)
+			(at 202.3872 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2697,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2706,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2715,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2724,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2733,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 192.405 87.63 0)
+			(at 201.422 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 57.15 90)
+		(at 190.627 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2695,7 +2767,7 @@
 		(fields_autoplaced yes)
 		(uuid "484767c3-dbd9-47e9-959f-24bf85c27729")
 		(property "Reference" "R29"
-			(at 181.61 51.435 90)
+			(at 190.627 31.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2775,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 181.61 53.975 90)
+			(at 190.627 33.655 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2783,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 58.928 90)
+			(at 190.627 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2792,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 181.61 57.15 0)
+			(at 190.627 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2801,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 181.61 57.15 0)
+			(at 190.627 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2810,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 181.61 57.15 90)
+			(at 190.627 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2819,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 181.61 57.15 90)
+			(at 190.627 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2828,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 181.61 57.15 90)
+			(at 190.627 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2837,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 181.61 57.15 90)
+			(at 190.627 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 81.28 156.845 0)
+		(at 65.405 155.575 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2799,7 +2871,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb8dd6b-db03-43d2-8744-84ff92a44058")
 		(property "Reference" "#PWR023"
-			(at 81.28 160.655 0)
+			(at 65.405 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2880,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/1"
-			(at 81.28 152.4 0)
+			(at 65.405 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 156.845 0)
+			(at 65.405 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 156.845 0)
+			(at 65.405 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 81.28 156.845 0)
+			(at 65.405 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.185 111.76 0)
+		(at 76.6826 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2865,7 +2937,7 @@
 		(fields_autoplaced yes)
 		(uuid "5766874f-ca1c-49ed-811b-0e34006f5b8b")
 		(property "Reference" "C30"
-			(at 86.36 110.4899 0)
+			(at 79.8576 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2946,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 86.36 113.0299 0)
+			(at 79.8576 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.1502 115.57 0)
+			(at 77.6478 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2964,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2973,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2982,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +2991,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +3000,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +3009,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 83.185 111.76 0)
+			(at 76.6826 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3034,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 192.405 137.16 0)
+		(at 201.422 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2971,7 +3043,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fa00f0a-7481-4c45-9ea0-4eba999cbc45")
 		(property "Reference" "C35"
-			(at 195.58 135.8899 0)
+			(at 204.597 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3052,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 195.58 138.4299 0)
+			(at 204.597 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3061,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.3702 140.97 0)
+			(at 202.3872 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3070,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3079,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3088,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3097,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3106,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3115,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 192.405 137.16 0)
+			(at 201.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.295 106.045 90)
+		(at 67.7926 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3077,7 +3149,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fad1536-4bcc-4644-a1d5-11dd29789e1e")
 		(property "Reference" "R27"
-			(at 74.295 100.33 90)
+			(at 67.7926 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3157,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 74.295 102.87 90)
+			(at 67.7926 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.295 107.823 90)
+			(at 67.7926 87.503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 74.295 106.045 0)
+			(at 67.7926 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3183,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 74.295 106.045 0)
+			(at 67.7926 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3192,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 74.295 106.045 90)
+			(at 67.7926 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3201,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 74.295 106.045 90)
+			(at 67.7926 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3210,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 74.295 106.045 90)
+			(at 67.7926 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3219,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 74.295 106.045 90)
+			(at 67.7926 85.725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3244,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.185 136.525 0)
+		(at 76.6826 116.205 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3181,7 +3253,7 @@
 		(fields_autoplaced yes)
 		(uuid "5faef0c8-88b5-4a26-a824-bec716bc45ed")
 		(property "Reference" "C31"
-			(at 86.36 135.2549 0)
+			(at 79.8576 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3262,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 86.36 137.7949 0)
+			(at 79.8576 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.1502 140.335 0)
+			(at 77.6478 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3280,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3289,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3298,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3307,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3316,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3325,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 83.185 136.525 0)
+			(at 76.6826 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3350,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 170.815 0)
+		(at 40.005 169.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3287,7 +3359,7 @@
 		(fields_autoplaced yes)
 		(uuid "741a33c6-6a9b-47a4-adf2-543f7abcfe1a")
 		(property "Reference" "C20"
-			(at 59.69 169.5449 0)
+			(at 43.815 168.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3368,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 59.69 172.0849 0)
+			(at 43.815 170.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3377,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 56.8452 174.625 0)
+			(at 40.9702 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3386,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3395,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 0603"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3404,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3413,7 @@
 			)
 		)
 		(property "Part #" "GRM188R61E106KA73D"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3422,7 @@
 			)
 		)
 		(property "Price" "$0.135"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3431,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
-			(at 55.88 170.815 0)
+			(at 40.005 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3456,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 170.18 0)
+		(at 93.98 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3393,7 +3465,7 @@
 		(fields_autoplaced yes)
 		(uuid "77f2d1cf-23a0-46eb-ae48-5c03939d7ef4")
 		(property "Reference" "C22"
-			(at 115.57 168.9099 0)
+			(at 97.79 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3474,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 115.57 171.4499 0)
+			(at 97.79 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3483,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 112.7252 173.99 0)
+			(at 94.9452 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3492,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3501,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 0603"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3510,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3519,7 @@
 			)
 		)
 		(property "Part #" "GRM188R61E106KA73D"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3528,7 @@
 			)
 		)
 		(property "Price" "$0.135"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3537,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
-			(at 111.76 170.18 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3562,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 116.205 93.345 0)
+		(at 109.7026 73.025 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3499,7 +3571,7 @@
 		(fields_autoplaced yes)
 		(uuid "798bfcea-f6b0-445f-b868-613b88f7f697")
 		(property "Reference" "U12"
-			(at 118.3991 78.105 0)
+			(at 111.8967 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3580,7 @@
 			)
 		)
 		(property "Value" "ADS1015IDGS"
-			(at 118.3991 80.645 0)
+			(at 111.8967 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3589,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 116.205 106.045 0)
+			(at 109.7026 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3598,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 114.935 116.205 0)
+			(at 108.4326 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3607,7 @@
 			)
 		)
 		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 116.205 93.345 0)
+			(at 109.7026 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3616,7 @@
 			)
 		)
 		(property "Mfr." "Texas Instruments"
-			(at 116.205 93.345 0)
+			(at 109.7026 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3625,7 @@
 			)
 		)
 		(property "Part #" "ADS1015IDGSR"
-			(at 116.205 93.345 0)
+			(at 109.7026 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3634,7 @@
 			)
 		)
 		(property "Price" "$2.98"
-			(at 116.205 93.345 0)
+			(at 109.7026 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3643,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
-			(at 116.205 93.345 0)
+			(at 109.7026 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 226.06 93.98 0)
+		(at 235.077 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,7 +3701,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9ee192-c887-4476-9a39-afab0985704d")
 		(property "Reference" "U13"
-			(at 228.2541 78.74 0)
+			(at 237.2711 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3710,7 @@
 			)
 		)
 		(property "Value" "ADS1015IDGS"
-			(at 228.2541 81.28 0)
+			(at 237.2711 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3719,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 226.06 106.68 0)
+			(at 235.077 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 224.79 116.84 0)
+			(at 233.807 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3737,7 @@
 			)
 		)
 		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 226.06 93.98 0)
+			(at 235.077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3746,7 @@
 			)
 		)
 		(property "Mfr." "Texas Instruments"
-			(at 226.06 93.98 0)
+			(at 235.077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3755,7 @@
 			)
 		)
 		(property "Part #" "ADS1015IDGSR"
-			(at 226.06 93.98 0)
+			(at 235.077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3764,7 @@
 			)
 		)
 		(property "Price" "$2.98"
-			(at 226.06 93.98 0)
+			(at 235.077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3773,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
-			(at 226.06 93.98 0)
+			(at 235.077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3822,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 81.915 90)
+		(at 190.627 61.595 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3759,7 +3831,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bf03de2-897f-4a32-b4ea-3d58be41619f")
 		(property "Reference" "R30"
-			(at 181.61 76.2 90)
+			(at 190.627 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3839,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 181.61 78.74 90)
+			(at 190.627 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3847,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 83.693 90)
+			(at 190.627 63.373 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3856,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 181.61 81.915 0)
+			(at 190.627 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3865,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 181.61 81.915 0)
+			(at 190.627 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3874,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 181.61 81.915 90)
+			(at 190.627 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3883,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 181.61 81.915 90)
+			(at 190.627 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3892,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 181.61 81.915 90)
+			(at 190.627 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3901,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 181.61 81.915 90)
+			(at 190.627 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3926,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.025 57.785 90)
+		(at 66.5226 37.465 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3863,7 +3935,7 @@
 		(fields_autoplaced yes)
 		(uuid "a65792b2-6082-4644-8ca7-795025979568")
 		(property "Reference" "R5"
-			(at 73.025 52.07 90)
+			(at 66.5226 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3943,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 73.025 54.61 90)
+			(at 66.5226 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.025 59.563 90)
+			(at 66.5226 39.243 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 73.025 57.785 0)
+			(at 66.5226 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3969,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 73.025 57.785 0)
+			(at 66.5226 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3978,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 73.025 57.785 90)
+			(at 66.5226 37.465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3987,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 73.025 57.785 90)
+			(at 66.5226 37.465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3996,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 73.025 57.785 90)
+			(at 66.5226 37.465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +4005,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 73.025 57.785 90)
+			(at 66.5226 37.465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.295 81.28 90)
+		(at 67.7926 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3967,7 +4039,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6676c6b-cbdc-4bd5-936d-8aaf85b11314")
 		(property "Reference" "R26"
-			(at 74.295 75.565 90)
+			(at 67.7926 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +4047,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 74.295 78.105 90)
+			(at 67.7926 57.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4055,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.295 83.058 90)
+			(at 67.7926 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 74.295 81.28 0)
+			(at 67.7926 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4073,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 74.295 81.28 0)
+			(at 67.7926 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4082,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 74.295 81.28 90)
+			(at 67.7926 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4091,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 74.295 81.28 90)
+			(at 67.7926 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4100,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 74.295 81.28 90)
+			(at 67.7926 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4109,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 74.295 81.28 90)
+			(at 67.7926 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4134,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 68.58 160.655 90)
+		(at 52.705 159.385 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4071,7 +4143,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb96314e-bb90-43d5-b9e0-6aeb8cb0f00b")
 		(property "Reference" "FB1"
-			(at 68.5292 153.67 90)
+			(at 52.6542 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +4151,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 68.5292 156.21 90)
+			(at 52.6542 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4159,7 @@
 			)
 		)
 		(property "Footprint" "0603 Ferrite Bead:0603 Ferrite Bead"
-			(at 68.58 162.433 90)
+			(at 52.705 161.163 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4168,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796750610462/QNFA9122.pdf"
-			(at 68.58 160.655 0)
+			(at 52.705 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4177,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 1 KOHM 0603 1LN"
-			(at 68.58 160.655 0)
+			(at 52.705 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4186,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 68.58 160.655 90)
+			(at 52.705 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4195,7 @@
 			)
 		)
 		(property "Part #" "BLM18KG102SZ1D"
-			(at 68.58 160.655 90)
+			(at 52.705 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4204,7 @@
 			)
 		)
 		(property "Price" "$0.046"
-			(at 68.58 160.655 90)
+			(at 52.705 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4213,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG102SZ1D/7798422"
-			(at 68.58 160.655 90)
+			(at 52.705 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4238,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 192.405 62.865 0)
+		(at 201.422 42.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4175,7 +4247,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfd9f4df-52c0-4889-8181-637f2e6fc4eb")
 		(property "Reference" "C32"
-			(at 195.58 61.5949 0)
+			(at 204.597 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4256,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 195.58 64.1349 0)
+			(at 204.597 43.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4265,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.3702 66.675 0)
+			(at 202.3872 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4274,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4283,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4292,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4301,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4310,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4319,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 192.405 62.865 0)
+			(at 201.422 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4344,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.185 86.995 0)
+		(at 76.6826 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4281,7 +4353,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce442385-880f-4bfc-97ab-a8feda012406")
 		(property "Reference" "C5"
-			(at 86.36 85.7249 0)
+			(at 79.8576 65.4049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4362,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 86.36 88.2649 0)
+			(at 79.8576 67.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4371,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.1502 90.805 0)
+			(at 77.6478 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4389,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 25V X7R 0603"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4398,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4407,7 @@
 			)
 		)
 		(property "Part #" "GRM188Z71E225KE43D"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4416,7 @@
 			)
 		)
 		(property "Price" "$0.105"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4425,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71E225KE43D/16602147"
-			(at 83.185 86.995 0)
+			(at 76.6826 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4450,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 170.815 0)
+		(at 65.405 169.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4387,7 +4459,7 @@
 		(fields_autoplaced yes)
 		(uuid "d224efa9-34d5-437e-b7b3-a37a52a5e3f5")
 		(property "Reference" "C21"
-			(at 85.09 169.5449 0)
+			(at 69.215 168.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4468,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 85.09 172.0849 0)
+			(at 69.215 170.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 82.2452 174.625 0)
+			(at 66.3702 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4495,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4504,7 @@
 			)
 		)
 		(property "Mfr." "KEMET"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4513,7 @@
 			)
 		)
 		(property "Part #" "C0603C104K5RACTU"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4522,7 @@
 			)
 		)
 		(property "Price" "$0.011"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4531,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
-			(at 81.28 170.815 0)
+			(at 65.405 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 124.46 160.02 90)
+		(at 106.68 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4493,7 +4565,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0d09f90-7cec-4874-89a6-116944a82721")
 		(property "Reference" "FB2"
-			(at 124.4092 153.035 90)
+			(at 106.6292 151.765 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4573,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 124.4092 155.575 90)
+			(at 106.6292 154.305 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4581,7 @@
 			)
 		)
 		(property "Footprint" "0603 Ferrite Bead:0603 Ferrite Bead"
-			(at 124.46 161.798 90)
+			(at 106.68 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4590,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796750610462/QNFA9122.pdf"
-			(at 124.46 160.02 0)
+			(at 106.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4599,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 1 KOHM 0603 1LN"
-			(at 124.46 160.02 0)
+			(at 106.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4608,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 124.46 160.02 90)
+			(at 106.68 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4617,7 @@
 			)
 		)
 		(property "Part #" "BLM18KG102SZ1D"
-			(at 124.46 160.02 90)
+			(at 106.68 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4626,7 @@
 			)
 		)
 		(property "Price" "$0.046"
-			(at 124.46 160.02 90)
+			(at 106.68 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4635,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG102SZ1D/7798422"
-			(at 124.46 160.02 90)
+			(at 106.68 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4660,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 226.06 78.74 0)
+		(at 235.077 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4596,7 +4668,7 @@
 		(dnp no)
 		(uuid "e0dfcf0f-0aad-4af8-9679-d99a75bf6448")
 		(property "Reference" "#PWR029"
-			(at 226.06 82.55 0)
+			(at 235.077 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4677,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/2"
-			(at 226.06 74.168 0)
+			(at 235.077 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 78.74 0)
+			(at 235.077 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 78.74 0)
+			(at 235.077 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 226.06 78.74 0)
+			(at 235.077 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +4725,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 116.205 78.105 0)
+		(at 109.7026 57.785 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4662,7 +4734,7 @@
 		(fields_autoplaced yes)
 		(uuid "e96d0566-2272-4ce3-9754-14f16e0cc197")
 		(property "Reference" "#PWR026"
-			(at 116.205 81.915 0)
+			(at 109.7026 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4743,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/1"
-			(at 116.205 73.66 0)
+			(at 109.7026 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.205 78.105 0)
+			(at 109.7026 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.205 78.105 0)
+			(at 109.7026 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 116.205 78.105 0)
+			(at 109.7026 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 131.445 90)
+		(at 190.627 111.125 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4728,7 +4800,7 @@
 		(fields_autoplaced yes)
 		(uuid "f591e2d4-1287-444f-a361-6644b2e94c8b")
 		(property "Reference" "R32"
-			(at 181.61 125.73 90)
+			(at 190.627 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4808,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 181.61 128.27 90)
+			(at 190.627 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4816,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 133.223 90)
+			(at 190.627 112.903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 181.61 131.445 0)
+			(at 190.627 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4834,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 181.61 131.445 0)
+			(at 190.627 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4843,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 181.61 131.445 90)
+			(at 190.627 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4852,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 181.61 131.445 90)
+			(at 190.627 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4861,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 181.61 131.445 90)
+			(at 190.627 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4870,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 181.61 131.445 90)
+			(at 190.627 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4895,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 107.315 90)
+		(at 190.627 86.995 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4832,7 +4904,7 @@
 		(fields_autoplaced yes)
 		(uuid "f64c75d3-34b8-4d1f-8ad5-24260e1f130b")
 		(property "Reference" "R31"
-			(at 181.61 101.6 90)
+			(at 190.627 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4912,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 181.61 104.14 90)
+			(at 190.627 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 109.093 90)
+			(at 190.627 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
-			(at 181.61 107.315 0)
+			(at 190.627 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4938,7 @@
 			)
 		)
 		(property "Description" "RES 680 OHM 1% 1/10W 0603"
-			(at 181.61 107.315 0)
+			(at 190.627 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4947,7 @@
 			)
 		)
 		(property "Mfr." "TE Connectivity Passive Product"
-			(at 181.61 107.315 90)
+			(at 190.627 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4956,7 @@
 			)
 		)
 		(property "Part #" "CRGCQ0603F680R"
-			(at 181.61 107.315 90)
+			(at 190.627 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4965,7 @@
 			)
 		)
 		(property "Price" "$0.028"
-			(at 181.61 107.315 90)
+			(at 190.627 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4974,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F680R/8576288?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsCcABAPIAWAtviALqkAOALlBABVAHYBLfk0wBZQtnwBXAE6EQAX3WkYVEAGEASgHE9ARTg04AZgBi3dUA"
-			(at 181.61 107.315 90)
+			(at 190.627 86.995 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4998,7 @@
 		)
 	)
 	(sheet
-		(at 149.3012 74.2696)
+		(at 158.3182 53.9496)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -4938,7 +5010,7 @@
 		)
 		(uuid "0659510c-572a-4ec3-8d25-c87c35329174")
 		(property "Sheetname" "INA240 Current Sensor 5"
-			(at 149.3012 73.558 0)
+			(at 158.3182 53.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +5019,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 5.kicad_sch"
-			(at 149.3012 89.3322 0)
+			(at 158.3182 69.0122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5029,7 @@
 			)
 		)
 		(pin "OUT5" input
-			(at 171.1452 81.915 0)
+			(at 180.1622 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5047,7 @@
 		)
 	)
 	(sheet
-		(at 148.971 99.695)
+		(at 157.988 79.375)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -4987,7 +5059,7 @@
 		)
 		(uuid "090188e7-77ec-4d24-a2a3-4f928b9f7362")
 		(property "Sheetname" "INA240 Current Sensor 6"
-			(at 148.971 98.9834 0)
+			(at 157.988 78.6634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +5068,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 6.kicad_sch"
-			(at 148.971 114.7576 0)
+			(at 157.988 94.4376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5078,7 @@
 			)
 		)
 		(pin "OUT6" input
-			(at 170.815 107.315 0)
+			(at 179.832 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5096,7 @@
 		)
 	)
 	(sheet
-		(at 148.844 49.5554)
+		(at 157.861 29.2354)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5036,7 +5108,7 @@
 		)
 		(uuid "30006003-34f5-4d75-b29f-bfd2a79d18a3")
 		(property "Sheetname" "INA240 Current Sensor 4"
-			(at 148.844 48.8438 0)
+			(at 157.861 28.5238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5117,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 4.kicad_sch"
-			(at 148.844 64.618 0)
+			(at 157.861 44.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5127,7 @@
 			)
 		)
 		(pin "OUT4" input
-			(at 170.688 57.15 0)
+			(at 179.705 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5145,7 @@
 		)
 	)
 	(sheet
-		(at 148.9456 123.825)
+		(at 157.9626 103.505)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5085,7 +5157,7 @@
 		)
 		(uuid "3581352b-4b94-4488-9f17-1d849a571506")
 		(property "Sheetname" "INA240 Current Sensor 7"
-			(at 148.9456 123.1134 0)
+			(at 157.9626 102.7934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5166,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 7.kicad_sch"
-			(at 148.9456 138.8876 0)
+			(at 157.9626 118.5676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5176,7 @@
 			)
 		)
 		(pin "OUT7" input
-			(at 170.7896 131.445 0)
+			(at 179.8066 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5194,7 @@
 		)
 	)
 	(sheet
-		(at 41.8084 73.4568)
+		(at 35.306 53.1368)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5134,7 +5206,7 @@
 		)
 		(uuid "db9137a7-4e97-40ba-b5e6-2da12e50f672")
 		(property "Sheetname" "INA240 Current Sensor 1"
-			(at 41.8084 72.7452 0)
+			(at 35.306 52.4252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5215,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 1.kicad_sch"
-			(at 41.8084 88.5194 0)
+			(at 35.306 68.1994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5225,7 @@
 			)
 		)
 		(pin "OUT1" input
-			(at 63.6524 81.28 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5243,7 @@
 		)
 	)
 	(sheet
-		(at 41.656 50.165)
+		(at 35.1536 29.845)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5183,7 +5255,7 @@
 		)
 		(uuid "de561fd9-4477-4dad-9e95-bd36a35c3ab8")
 		(property "Sheetname" "INA240 Current Sensor 0"
-			(at 41.656 49.4534 0)
+			(at 35.1536 29.1334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5264,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 0.kicad_sch"
-			(at 41.656 65.2276 0)
+			(at 35.1536 44.9076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5274,7 @@
 			)
 		)
 		(pin "OUT0" output
-			(at 63.5 57.785 0)
+			(at 56.9976 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5292,7 @@
 		)
 	)
 	(sheet
-		(at 41.783 98.3488)
+		(at 35.2806 78.0288)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5232,7 +5304,7 @@
 		)
 		(uuid "e1468da4-9b9d-4945-991c-612b8553fd9a")
 		(property "Sheetname" "INA240 Current Sensor 2"
-			(at 41.783 97.6372 0)
+			(at 35.2806 77.3172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5313,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 2.kicad_sch"
-			(at 41.783 113.4114 0)
+			(at 35.2806 93.0914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5323,7 @@
 			)
 		)
 		(pin "OUT2" input
-			(at 63.627 106.045 0)
+			(at 57.1246 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5341,7 @@
 		)
 	)
 	(sheet
-		(at 41.9608 123.444)
+		(at 35.4584 103.124)
 		(size 21.844 14.478)
 		(fields_autoplaced yes)
 		(stroke
@@ -5281,7 +5353,7 @@
 		)
 		(uuid "f12f6ba9-ab6d-4984-bb7d-f57b63eb35b3")
 		(property "Sheetname" "INA240 Current Sensor 3"
-			(at 41.9608 122.7324 0)
+			(at 35.4584 102.4124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5362,7 @@
 			)
 		)
 		(property "Sheetfile" "INA240 Current Sensor 3.kicad_sch"
-			(at 41.9608 138.5066 0)
+			(at 35.4584 118.1866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5372,7 @@
 			)
 		)
 		(pin "OUT3" input
-			(at 63.8048 130.81 0)
+			(at 57.3024 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

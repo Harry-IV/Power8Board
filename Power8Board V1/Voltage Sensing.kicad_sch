@@ -887,7 +887,7 @@
 		)
 	)
 	(junction
-		(at 86.36 149.86)
+		(at 57.785 158.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa2f385-1a43-425f-b8e7-f48482d2fe9d")
@@ -899,19 +899,19 @@
 		(uuid "75cceb3a-78b8-4764-a45d-28829cbbfca1")
 	)
 	(junction
-		(at 149.86 117.475)
+		(at 142.24 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3a599a-bdbb-42fa-8bf2-fe70eb7b0ab4")
 	)
 	(junction
-		(at 60.96 169.545)
+		(at 32.385 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c35e68a-59cf-44d6-93ca-ec37584865e0")
 	)
 	(junction
-		(at 60.96 149.86)
+		(at 32.385 158.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3846625-e508-4a50-a219-f32eb7f427bb")
@@ -935,13 +935,13 @@
 		(uuid "f0c509f3-260d-45f8-b2af-70229dff331e")
 	)
 	(junction
-		(at 86.36 169.545)
+		(at 57.785 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7c574a9-1c34-4081-9706-158df3778a8d")
 	)
 	(no_connect
-		(at 147.955 109.855)
+		(at 140.335 161.29)
 		(uuid "bcaa91c1-8a18-4680-865b-bf8d647ceec7")
 	)
 	(wire
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 169.545) (xy 60.96 172.72)
+			(xy 32.385 177.8) (xy 32.385 180.975)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 60.96 169.545)
+			(xy 32.385 172.085) (xy 32.385 177.8)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 149.86) (xy 60.96 156.21)
+			(xy 32.385 158.115) (xy 32.385 164.465)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 112.395) (xy 127.635 112.395)
+			(xy 116.84 163.83) (xy 120.015 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 169.545) (xy 86.36 169.545)
+			(xy 32.385 177.8) (xy 57.785 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 117.475) (xy 127.635 117.475)
+			(xy 116.84 168.91) (xy 120.015 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 125.095) (xy 137.795 127.635)
+			(xy 130.175 176.53) (xy 130.175 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 146.685) (xy 60.96 149.86)
+			(xy 32.385 154.94) (xy 32.385 158.115)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 163.83) (xy 86.36 169.545)
+			(xy 57.785 172.085) (xy 57.785 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 114.935) (xy 151.765 114.935)
+			(xy 140.335 166.37) (xy 144.145 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 169.545) (xy 86.36 172.72)
+			(xy 57.785 177.8) (xy 57.785 180.975)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.015) (xy 127.635 120.015)
+			(xy 116.84 171.45) (xy 120.015 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 149.86) (xy 86.36 156.21)
+			(xy 57.785 158.115) (xy 57.785 164.465)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 149.86) (xy 86.36 149.86)
+			(xy 48.895 158.115) (xy 57.785 158.115)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 117.475) (xy 151.765 117.475)
+			(xy 142.24 168.91) (xy 144.145 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 120.015) (xy 149.86 117.475)
+			(xy 142.24 171.45) (xy 142.24 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 120.015) (xy 149.86 120.015)
+			(xy 140.335 171.45) (xy 142.24 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 114.935) (xy 127.635 114.935)
+			(xy 116.84 166.37) (xy 120.015 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 149.86) (xy 86.36 146.05)
+			(xy 57.785 158.115) (xy 57.785 154.305)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 99.695) (xy 137.795 102.235)
+			(xy 130.175 151.13) (xy 130.175 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +1346,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 117.475) (xy 149.86 117.475)
+			(xy 140.335 168.91) (xy 142.24 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1356,13 +1356,104 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 149.86) (xy 69.85 149.86)
+			(xy 32.385 158.115) (xy 41.275 158.115)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe3f99c8-a9dc-45e5-9710-f52b4aa8fe74")
+	)
+	(rectangle
+		(start 101.6 140.335)
+		(end 153.67 189.865)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3db89342-e2d1-43b5-a989-ac4fdadbf05d)
+	)
+	(rectangle
+		(start 27.305 139.7)
+		(end 80.01 189.23)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6daae21e-48ac-44c1-8504-ddcbb252868a)
+	)
+	(rectangle
+		(start 27.305 82.55)
+		(end 153.67 130.81)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbfc0840-f4d0-4cd9-9399-43b4e4afcde1)
+	)
+	(text_box "Scalar Values\n\n48V: (470+25)/25 = 19.8\n12V: (470+110)/110 = 5.273\n5V: (470+470)/470 = 2\n3.3V: (470+470)/470 = 2\n\nMultiply the values read from the ADC by these scalars respectively to find their true voltages."
+		(exclude_from_sim no)
+		(at 111.76 86.36 0)
+		(size 38.1 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "181fb20d-6a3c-4254-911c-db218a2e942d")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 107.95 145.288 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "6609b18b-1352-4a04-ab94-4dadb92b2b0a")
+	)
+	(text "Power Filtering for Analog Supply"
+		(exclude_from_sim no)
+		(at 53.848 144.272 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "b0334ff2-7bcb-4f63-8f73-179f349edd33")
+	)
+	(text "Voltage Dividers"
+		(exclude_from_sim no)
+		(at 41.656 87.63 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "bfb61b88-ea41-49b7-9d06-61f240f461c5")
 	)
 	(label "AIN1"
 		(at 54.61 109.22 180)
@@ -1376,7 +1467,7 @@
 		(uuid "09fa5374-11f3-4ff6-9b96-05d1e3e7d810")
 	)
 	(label "AIN3"
-		(at 124.46 120.015 180)
+		(at 116.84 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1387,7 +1478,7 @@
 		(uuid "326b5e46-3941-49f5-95d6-cebfca308ba1")
 	)
 	(label "AIN0"
-		(at 124.46 112.395 180)
+		(at 116.84 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1420,7 +1511,7 @@
 		(uuid "bd6f15ac-35b6-4cec-9db1-f3d8294fdf03")
 	)
 	(label "AIN1"
-		(at 124.46 114.935 180)
+		(at 116.84 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1431,7 +1522,7 @@
 		(uuid "cfc65d90-1efa-44ea-a3a2-f918378344ca")
 	)
 	(label "AIN2"
-		(at 124.46 117.475 180)
+		(at 116.84 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1466,7 +1557,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 60.96 172.72 270)
+		(at 32.385 180.975 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1490,7 +1581,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 151.765 114.935 0)
+		(at 144.145 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1502,7 +1593,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 137.795 127.635 270)
+		(at 130.175 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1526,7 +1617,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 151.765 117.475 0)
+		(at 144.145 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1550,7 +1641,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 86.36 172.72 270)
+		(at 57.785 180.975 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1562,7 +1653,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 60.96 146.685 90)
+		(at 32.385 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1680,7 +1771,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 137.795 114.935 0)
+		(at 130.175 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +1780,7 @@
 		(fields_autoplaced yes)
 		(uuid "25083013-6057-4ac9-9f95-79b59eadb6fe")
 		(property "Reference" "U14"
-			(at 139.9891 99.695 0)
+			(at 132.3691 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1789,7 @@
 			)
 		)
 		(property "Value" "ADS1015IDGS"
-			(at 139.9891 102.235 0)
+			(at 132.3691 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1798,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 137.795 127.635 0)
+			(at 130.175 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1807,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 136.525 137.795 0)
+			(at 128.905 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1816,7 @@
 			)
 		)
 		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 137.795 114.935 0)
+			(at 130.175 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1825,7 @@
 			)
 		)
 		(property "Mfr." "Texas Instruments"
-			(at 137.795 114.935 0)
+			(at 130.175 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1834,7 @@
 			)
 		)
 		(property "Part #" "ADS1015IDGSR"
-			(at 137.795 114.935 0)
+			(at 130.175 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1843,7 @@
 			)
 		)
 		(property "Price" "$2.98"
-			(at 137.795 114.935 0)
+			(at 130.175 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1852,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
-			(at 137.795 114.935 0)
+			(at 130.175 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2073,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 86.36 146.05 0)
+		(at 57.785 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1990,7 +2081,7 @@
 		(dnp no)
 		(uuid "6487ff33-067a-4858-9e89-605ee76895a1")
 		(property "Reference" "#PWR035"
-			(at 86.36 149.86 0)
+			(at 57.785 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2090,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/3"
-			(at 86.36 141.478 0)
+			(at 57.785 149.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 146.05 0)
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 146.05 0)
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 86.36 146.05 0)
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2562,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 160.02 0)
+		(at 57.785 168.275 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2480,7 +2571,7 @@
 		(fields_autoplaced yes)
 		(uuid "97539a59-b8ec-4990-9378-220319a31190")
 		(property "Reference" "C25"
-			(at 90.17 158.7499 0)
+			(at 61.595 167.0049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2580,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 90.17 161.2899 0)
+			(at 61.595 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 87.3252 163.83 0)
+			(at 58.7502 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2607,7 @@
 			)
 		)
 		(property "Description" "0.1 uF 0805 Ceramic Capacitor - Automotive, Bypass, Decoupling"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2616,7 @@
 			)
 		)
 		(property "Mfr." "KEMET"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2625,7 @@
 			)
 		)
 		(property "Part #" "C0805C104J5RACAUTO"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2634,7 @@
 			)
 		)
 		(property "Price" "$0.109"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2643,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/kemet/C0805C104J5RACAUTO/3314919"
-			(at 86.36 160.02 0)
+			(at 57.785 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2774,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 73.66 149.86 90)
+		(at 45.085 158.115 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2692,7 +2783,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7197cc7-29bb-49c0-b1be-e2e616b7818e")
 		(property "Reference" "FB3"
-			(at 73.6092 142.875 90)
+			(at 45.0342 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2791,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 73.6092 145.415 90)
+			(at 45.0342 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" "MPZ2012S102ATD25:BEADC2012X105N"
-			(at 73.66 151.638 90)
+			(at 45.085 159.893 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf"
-			(at 73.66 149.86 0)
+			(at 45.085 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2817,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 1 KOHM 0805 1LN"
-			(at 73.66 149.86 0)
+			(at 45.085 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2826,7 @@
 			)
 		)
 		(property "Mfr." "TDK Corporation"
-			(at 73.66 149.86 90)
+			(at 45.085 158.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2835,7 @@
 			)
 		)
 		(property "Part #" "MPZ2012S102ATD25"
-			(at 73.66 149.86 90)
+			(at 45.085 158.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2844,7 @@
 			)
 		)
 		(property "Price" "$0.084"
-			(at 73.66 149.86 90)
+			(at 45.085 158.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2853,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S102ATD25/5040327"
-			(at 73.66 149.86 90)
+			(at 45.085 158.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 160.02 0)
+		(at 32.385 168.275 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2796,7 +2887,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab10957a-09fd-4cbd-8fb8-cd7ecf00eaec")
 		(property "Reference" "C24"
-			(at 64.77 158.7499 0)
+			(at 36.195 167.0049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2896,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 64.77 161.2899 0)
+			(at 36.195 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2905,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 61.9252 163.83 0)
+			(at 33.3502 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2914,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2923,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7S 0805"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2932,7 @@
 			)
 		)
 		(property "Mfr." "Murata Electronics"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2941,7 @@
 			)
 		)
 		(property "Part #" "GRT21BC71E106KE13L"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2950,7 @@
 			)
 		)
 		(property "Price" "$0.32"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2959,7 @@
 			)
 		)
 		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BC71E106KE13L/10697404"
-			(at 60.96 160.02 0)
+			(at 32.385 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3222,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 137.795 99.695 0)
+		(at 130.175 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3139,7 +3230,7 @@
 		(dnp no)
 		(uuid "f85ec981-f996-4bcb-a814-0ef0f4158e44")
 		(property "Reference" "#PWR038"
-			(at 137.795 103.505 0)
+			(at 130.175 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3239,7 @@
 			)
 		)
 		(property "Value" "+3.3VA/3"
-			(at 137.795 95.123 0)
+			(at 130.175 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.795 99.695 0)
+			(at 130.175 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.795 99.695 0)
+			(at 130.175 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 137.795 99.695 0)
+			(at 130.175 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5018,7 +5018,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 5.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 5.kicad_sch"
 			(at 158.3182 69.0122 0)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 6.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 6.kicad_sch"
 			(at 157.988 94.4376 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 4.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 4.kicad_sch"
 			(at 157.861 44.298 0)
 			(effects
 				(font
@@ -5214,7 +5214,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 1.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 1.kicad_sch"
 			(at 35.306 68.1994 0)
 			(effects
 				(font
@@ -5263,7 +5263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 0.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 0.kicad_sch"
 			(at 35.1536 44.9076 0)
 			(effects
 				(font
@@ -5312,7 +5312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 2.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 2.kicad_sch"
 			(at 35.2806 93.0914 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INA240 Current Sensor 3.kicad_sch"
+		(property "Sheetfile" "Current Sensors/INA240 Current Sensor 3.kicad_sch"
 			(at 35.4584 118.1866 0)
 			(effects
 				(font

@@ -1431,7 +1431,7 @@
 				(color 132 0 0 1)
 			)
 		)
-		(uuid "6609b18b-1352-4a04-ab94-4dadb92b2b0a")
+		(uuid "6609b18b-1352-4a04-ab94-4dadb92b2b0c")
 	)
 	(text "Power Filtering for Analog Supply"
 		(exclude_from_sim no)
@@ -1442,7 +1442,7 @@
 				(color 132 0 0 1)
 			)
 		)
-		(uuid "b0334ff2-7bcb-4f63-8f73-179f349edd33")
+		(uuid "b0334ff2-7bcb-4f63-8f73-179f349edd34")
 	)
 	(text "Voltage Dividers"
 		(exclude_from_sim no)
@@ -1453,7 +1453,7 @@
 				(color 132 0 0 1)
 			)
 		)
-		(uuid "bfb61b88-ea41-49b7-9d06-61f240f461c5")
+		(uuid "bfb61b88-ea41-49b7-9d06-61f240f461c7")
 	)
 	(label "AIN1"
 		(at 54.61 109.22 180)
@@ -1475,10 +1475,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "326b5e46-3941-49f5-95d6-cebfca308ba1")
+		(uuid "26bac5c9-57fb-4b09-b79e-6686ce566070")
 	)
-	(label "AIN0"
-		(at 116.84 163.83 180)
+	(label "AIN2"
+		(at 116.84 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1486,7 +1486,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7cfbcf8d-17ed-42b5-9b84-187e334d1992")
+		(uuid "6695ece8-6d05-4c59-9fc7-88ce1a42aabb")
 	)
 	(label "AIN0"
 		(at 30.48 109.22 0)
@@ -1497,10 +1497,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ab250341-2a55-437e-845a-8dfe922836ae")
+		(uuid "72ad4e81-f8a0-46d3-a1f1-5d34c9f4f62f")
 	)
-	(label "AIN3"
-		(at 97.155 109.855 180)
+	(label "AIN0"
+		(at 116.84 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1508,7 +1508,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bd6f15ac-35b6-4cec-9db1-f3d8294fdf03")
+		(uuid "76714f4f-ad15-4210-853e-0e19a9bce504")
 	)
 	(label "AIN1"
 		(at 116.84 166.37 180)
@@ -1521,8 +1521,8 @@
 		)
 		(uuid "cfc65d90-1efa-44ea-a3a2-f918378344ca")
 	)
-	(label "AIN2"
-		(at 116.84 168.91 180)
+	(label "AIN3"
+		(at 97.155 109.855 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1530,7 +1530,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d2abfacd-9617-407c-be70-1bf65ad39cd2")
+		(uuid "e7d61f96-7975-410e-b5ab-1619cc367fb8")
 	)
 	(label "AIN2"
 		(at 76.2 109.855 180)
@@ -1542,6 +1542,18 @@
 			(justify right bottom)
 		)
 		(uuid "efba837d-b3a0-489c-8fed-f6e5145f2fc5")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 144.145 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06931645-ca3a-41e9-8f8f-8ab63e0922d1")
 	)
 	(hierarchical_label "12V"
 		(shape input)
@@ -1555,9 +1567,21 @@
 		)
 		(uuid "06b228f0-5716-4a9b-9616-bca174d49426")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 80.645 98.425 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11bcd0b4-2ad7-42c8-935d-49a69e03c689")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 32.385 180.975 270)
+		(at 57.785 180.975 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1565,7 +1589,19 @@
 			)
 			(justify right)
 		)
-		(uuid "114ca3df-6ad6-4949-9479-1e8508775095")
+		(uuid "3c9f12f8-9a36-405f-8d24-d4aaa0c22a46")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 32.385 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51be9145-c159-4ea5-b6b0-0cfe6e7497c0")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -1579,9 +1615,21 @@
 		)
 		(uuid "5435f1c7-82cf-47f9-8d4c-8e7363866835")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 144.145 166.37 0)
+		(at 32.385 180.975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "687ff7f6-7259-4902-a4a1-42682ca0d1f5")
+	)
+	(hierarchical_label "48V"
+		(shape input)
+		(at 38.1 97.79 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1589,7 +1637,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5e74e80f-20e9-4ecb-8967-2e917bee3cdc")
+		(uuid "95961153-623e-406e-ac2a-015074964d56")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1603,18 +1651,6 @@
 		)
 		(uuid "973e74e3-ad21-4f7e-8245-ab4eff3f3d1a")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 80.645 98.425 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e576e98-752a-42ab-8a39-6aded174edf3")
-	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 144.145 168.91 0)
@@ -1627,9 +1663,9 @@
 		)
 		(uuid "ad1ea1b6-4691-468a-bbb8-71aa142b2e21")
 	)
-	(hierarchical_label "48V"
+	(hierarchical_label "3.3V"
 		(shape input)
-		(at 38.1 97.79 90)
+		(at 32.385 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1637,19 +1673,19 @@
 			)
 			(justify left)
 		)
-		(uuid "d5e42de7-d98d-41ed-a8b8-16c57375eab0")
+		(uuid "bee898ce-d9de-44e4-8b2a-e5b488f5d33f")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "3.3V"
 		(shape input)
-		(at 57.785 180.975 270)
+		(at 32.385 154.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f63e16c0-4af9-49ad-b183-8cfaf374e82a")
+		(uuid "d06dd9ed-a732-4d86-9c0d-1f2d8ef66395")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -1664,253 +1700,17 @@
 		(uuid "fa88b799-1a3e-40d3-9ae0-5fe3574659e2")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 101.6 114.935 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a4b1f16-1c66-4cb7-9ba9-8e6b5405184f")
-		(property "Reference" "R20"
-			(at 103.505 113.6649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470k"
-			(at 103.505 116.2049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
-			(at 99.822 114.935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Vishay Dale"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "TNPW0805470KBEEA"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.36"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "453ab441-6b6c-4c05-ad68-3b57f9280001")
-		)
-		(pin "2"
-			(uuid "d0778b36-9949-4e42-8b01-3818be839038")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 130.175 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25083013-6057-4ac9-9f95-79b59eadb6fe")
-		(property "Reference" "U14"
-			(at 132.3691 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS1015IDGS"
-			(at 132.3691 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 130.175 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 128.905 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 130.175 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Texas Instruments"
-			(at 130.175 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "ADS1015IDGSR"
-			(at 130.175 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$2.98"
-			(at 130.175 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
-			(at 130.175 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfd446c3-638f-4bab-8da3-092b2846d9ee")
-		)
-		(pin "9"
-			(uuid "e22c3b18-d1e9-4606-b834-f91a6afa8512")
-		)
-		(pin "7"
-			(uuid "1ef598eb-094b-44a9-a60e-b9f5f0c93e71")
-		)
-		(pin "4"
-			(uuid "a8b17ab0-1ece-41d2-9cb0-ecc6d6ee58ca")
-		)
-		(pin "6"
-			(uuid "2b61db69-6929-48d9-a0c7-6069b352adea")
-		)
-		(pin "8"
-			(uuid "b8653792-1c05-4ecb-ba64-f67901aaa948")
-		)
-		(pin "1"
-			(uuid "158056f7-3aae-4ae7-b249-e03fa115e464")
-		)
-		(pin "10"
-			(uuid "c0756d10-e310-4464-896d-a8e1190ba9fc")
-		)
-		(pin "3"
-			(uuid "eeec544b-1ec7-4d96-863b-45097c226acd")
-		)
-		(pin "5"
-			(uuid "39120e24-645b-45f6-aa24-922ab65313ce")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 59.055 120.65 0)
+		(at 101.6 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "513d7425-6cc0-4dea-8a5b-ce66c9387493")
-		(property "Reference" "#PWR0108"
-			(at 59.055 127 0)
+		(uuid "122d6c1a-15c4-4c12-bcbf-2db0625c67ee")
+		(property "Reference" "#PWR0144"
+			(at 101.6 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.055 125.095 0)
+			(at 101.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.055 120.65 0)
+			(at 101.6 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.055 120.65 0)
+			(at 101.6 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.055 120.65 0)
+			(at 101.6 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,183 +1754,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "660bd5fd-91cc-44f3-916f-bfa52dba600d")
+			(uuid "511a715b-1451-40ef-a7be-45cf6eb9db3d")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.055 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "567dad11-3617-49c7-a711-64c3942caf2d")
-		(property "Reference" "R9"
-			(at 60.96 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "110k"
-			(at 60.96 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 57.277 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270-2&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=9-2176390-1"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 0805 110K 0.1%"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "TE Connectivity"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "RQ73C2A110KBTDF"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.74"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RQ73C2A110KBTDF/13947961"
-			(at 59.055 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ce803ab-8b49-468a-9c35-a5b3a76c7dd7")
-		)
-		(pin "1"
-			(uuid "7804a691-6d16-4e6e-b58f-5269b8d0dd4b")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 57.785 154.305 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6487ff33-067a-4858-9e89-605ee76895a1")
-		(property "Reference" "#PWR035"
-			(at 57.785 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA/3"
-			(at 57.785 149.733 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.785 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 57.785 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49fd3492-8517-4b66-a40d-c79b59f49889")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR035")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -2145,7 +1774,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f68db60-04f2-4270-a68c-0a7dd475973f")
+		(uuid "12a518a0-0ed3-432b-988e-4b5fa8e30296")
 		(property "Reference" "R11"
 			(at 82.55 113.6649 0)
 			(effects
@@ -2228,10 +1857,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a351f99f-7050-491d-b875-ff61135de42f")
+			(uuid "a351f99f-7050-491d-b875-ff61135de430")
 		)
 		(pin "2"
-			(uuid "30f2dcf2-65a0-40f3-a664-771e59e9df1d")
+			(uuid "30f2dcf2-65a0-40f3-a664-771e59e9df1e")
 		)
 		(instances
 			(project "Power8Board V1"
@@ -2251,7 +1880,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "729273fa-8ccb-4918-8abd-2d87bac4b650")
+		(uuid "1727dee6-8f43-47f5-a452-556820b1a9ec")
 		(property "Reference" "R12"
 			(at 103.505 103.5049 0)
 			(effects
@@ -2334,15 +1963,935 @@
 			)
 		)
 		(pin "1"
-			(uuid "d221f045-f6c4-4517-b13a-929ed73cd803")
+			(uuid "d221f045-f6c4-4517-b13a-929ed73cd804")
 		)
 		(pin "2"
-			(uuid "7a2ff1ae-ccf4-471a-8ab7-6864840b23f9")
+			(uuid "7a2ff1ae-ccf4-471a-8ab7-6864840b23fa")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20347ddd-9f41-4705-baea-5f6107df28df")
+		(property "Reference" "R20"
+			(at 103.505 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 103.505 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
+			(at 99.822 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Vishay Dale"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TNPW0805470KBEEA"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.36"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453ab441-6b6c-4c05-ad68-3b57f9280002")
+		)
+		(pin "2"
+			(uuid "d0778b36-9949-4e42-8b01-3818be839039")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1015IDGS")
+		(at 130.175 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3479f785-86fa-4de4-a4a2-fc1c352f0ceb")
+		(property "Reference" "U14"
+			(at 132.3691 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015IDGS"
+			(at 132.3691 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 130.175 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+			(at 128.905 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 130.175 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 130.175 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ADS1015IDGSR"
+			(at 130.175 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$2.98"
+			(at 130.175 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS1015IDGSR/2231559"
+			(at 130.175 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfd446c3-638f-4bab-8da3-092b2846d9f0")
+		)
+		(pin "9"
+			(uuid "e22c3b18-d1e9-4606-b834-f91a6afa8514")
+		)
+		(pin "7"
+			(uuid "1ef598eb-094b-44a9-a60e-b9f5f0c93e73")
+		)
+		(pin "4"
+			(uuid "a8b17ab0-1ece-41d2-9cb0-ecc6d6ee58cc")
+		)
+		(pin "6"
+			(uuid "2b61db69-6929-48d9-a0c7-6069b352adec")
+		)
+		(pin "8"
+			(uuid "b8653792-1c05-4ecb-ba64-f67901aaa94a")
+		)
+		(pin "1"
+			(uuid "158056f7-3aae-4ae7-b249-e03fa115e466")
+		)
+		(pin "10"
+			(uuid "c0756d10-e310-4464-896d-a8e1190ba9fe")
+		)
+		(pin "3"
+			(uuid "eeec544b-1ec7-4d96-863b-45097c226acf")
+		)
+		(pin "5"
+			(uuid "39120e24-645b-45f6-aa24-922ab65313d0")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.645 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed727b4-f1c2-456e-a8cb-78f87491a5dd")
+		(property "Reference" "#PWR0146"
+			(at 80.645 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.645 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.645 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.645 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.645 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f0c770d-196b-4af9-ad1c-f78244e659e9")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.055 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f6bca8f-cb4c-48ee-a1d1-6c8bbd5bb4c1")
+		(property "Reference" "#PWR0141"
+			(at 59.055 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.055 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.055 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.055 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.055 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "660bd5fd-91cc-44f3-916f-bfa52dba600e")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 57.785 154.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d40d1a8-9f00-43ec-9a77-9662ac17c9b9")
+		(property "Reference" "#PWR035"
+			(at 57.785 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA/3"
+			(at 57.785 149.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.785 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 57.785 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fd3492-8517-4b66-a40d-c79b59f4988a")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.055 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80615680-3c3c-40f7-82ec-933ea4f2aed2")
+		(property "Reference" "R9"
+			(at 60.96 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "110k"
+			(at 60.96 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 57.277 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270-2&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=9-2176390-1"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0805 110K 0.1%"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TE Connectivity"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RQ73C2A110KBTDF"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.74"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RQ73C2A110KBTDF/13947961"
+			(at 59.055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ce803ab-8b49-468a-9c35-a5b3a76c7dd8")
+		)
+		(pin "1"
+			(uuid "7804a691-6d16-4e6e-b58f-5269b8d0dd4c")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 45.085 158.115 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84101e96-b80a-42a0-850d-63c4c34d7c00")
+		(property "Reference" "FB3"
+			(at 45.0342 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 45.0342 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MPZ2012S102ATD25:BEADC2012X105N"
+			(at 45.085 159.893 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf"
+			(at 45.085 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 1 KOHM 0805 1LN"
+			(at 45.085 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "TDK Corporation"
+			(at 45.085 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "MPZ2012S102ATD25"
+			(at 45.085 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.084"
+			(at 45.085 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S102ATD25/5040327"
+			(at 45.085 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "842a285d-0f33-416f-8806-2cab070ca77c")
+		)
+		(pin "2"
+			(uuid "26ec280f-3de2-4b73-af4e-6065b6dec9ca")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 32.385 168.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b59ea0-6ab2-44be-b32b-4fa0ea34b841")
+		(property "Reference" "C24"
+			(at 36.195 167.0049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 36.195 169.5449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 33.3502 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7S 0805"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata Electronics"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRT21BC71E106KE13L"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.32"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BC71E106KE13L/10697404"
+			(at 32.385 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d19469f8-d419-4625-9b80-27dd9aad2787")
+		)
+		(pin "2"
+			(uuid "826d8b07-159b-45de-bd1c-0bc6d4c2c649")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 130.175 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b17129f-58d7-4d1e-8995-03d4f5414845")
+		(property "Reference" "#PWR038"
+			(at 130.175 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA/3"
+			(at 130.175 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.175 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 130.175 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e8adfc2-4dc8-4f7d-b4a8-13c7373a9bb2")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.055 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8beccd22-eb4d-4d32-87e0-840a5feea2ce")
+		(property "Reference" "R8"
+			(at 60.96 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 60.96 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
+			(at 57.277 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Vishay Dale"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TNPW0805470KBEEA"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.36"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25a7042f-0654-4d7d-8785-9be3438c6fd5")
+		)
+		(pin "2"
+			(uuid "7064d4d6-5249-4056-ab05-902a359f324a")
+		)
+		(instances
+			(project "Power8Board V1"
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2906,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77a04c71-fefb-4711-81bf-ee7efb5f3d45")
+		(uuid "91958450-eb9b-4495-88ff-0ea5a9cbf28c")
 		(property "Reference" "R10"
 			(at 82.55 103.5049 0)
 			(effects
@@ -2440,121 +2989,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "180ecc79-2483-416c-82e8-815d914c9615")
+			(uuid "180ecc79-2483-416c-82e8-815d914c9617")
 		)
 		(pin "2"
-			(uuid "f18ca511-a7e5-4cb2-adc7-9a54e2a94aaa")
+			(uuid "f18ca511-a7e5-4cb2-adc7-9a54e2a94aac")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e51ff67-d05b-4d6e-b6b9-0680046c9e43")
-		(property "Reference" "R7"
-			(at 40.005 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470k"
-			(at 40.005 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
-			(at 36.322 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Vishay Dale"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "TNPW0805470KBEEA"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.36"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1236000-23df-494a-909c-00c4ca59b3a6")
-		)
-		(pin "2"
-			(uuid "fce30f9f-ab97-4f24-a277-076a0dd048cb")
-		)
-		(instances
-			(project ""
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2652,331 +3095,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bee5fade-602e-43b0-af49-3bd7d92b4fd0")
+			(uuid "bee5fade-602e-43b0-af49-3bd7d92b4fd2")
 		)
 		(pin "2"
-			(uuid "4f353fed-ca81-4f97-9bba-3feacfeba5ce")
+			(uuid "4f353fed-ca81-4f97-9bba-3feacfeba5d0")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.055 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9883e41a-5253-4538-bb7a-75f8bddf2523")
-		(property "Reference" "R8"
-			(at 60.96 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470k"
-			(at 60.96 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
-			(at 57.277 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Vishay Dale"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "TNPW0805470KBEEA"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.36"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25a7042f-0654-4d7d-8785-9be3438c6fd4")
-		)
-		(pin "2"
-			(uuid "7064d4d6-5249-4056-ab05-902a359f3249")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 45.085 158.115 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7197cc7-29bb-49c0-b1be-e2e616b7818e")
-		(property "Reference" "FB3"
-			(at 45.0342 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 45.0342 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MPZ2012S102ATD25:BEADC2012X105N"
-			(at 45.085 159.893 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf"
-			(at 45.085 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FERRITE BEAD 1 KOHM 0805 1LN"
-			(at 45.085 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "TDK Corporation"
-			(at 45.085 158.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "MPZ2012S102ATD25"
-			(at 45.085 158.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.084"
-			(at 45.085 158.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/tdk-corporation/MPZ2012S102ATD25/5040327"
-			(at 45.085 158.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "842a285d-0f33-416f-8806-2cab070ca77a")
-		)
-		(pin "2"
-			(uuid "26ec280f-3de2-4b73-af4e-6065b6dec9c8")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 32.385 168.275 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab10957a-09fd-4cbd-8fb8-cd7ecf00eaec")
-		(property "Reference" "C24"
-			(at 36.195 167.0049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 36.195 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 33.3502 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 25V X7S 0805"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Murata Electronics"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "GRT21BC71E106KE13L"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.32"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BC71E106KE13L/10697404"
-			(at 32.385 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d19469f8-d419-4625-9b80-27dd9aad2786")
-		)
-		(pin "2"
-			(uuid "826d8b07-159b-45de-bd1c-0bc6d4c2c648")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2992,7 +3119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8899a6-2745-4d0c-87f2-f8ea762e4a9e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0142"
 			(at 38.1 127 0)
 			(effects
 				(font
@@ -3037,29 +3164,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c74115c-e1a4-4f5e-b711-c514ce72204a")
+			(uuid "6c74115c-e1a4-4f5e-b711-c514ce72204c")
 		)
 		(instances
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR0106")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 121.285 0)
+		(lib_id "power:+3.3VA")
+		(at 57.785 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb3a5719-0a3d-465a-8d15-f0da488e14fe")
-		(property "Reference" "#PWR0112"
-			(at 101.6 127.635 0)
+		(uuid "b0f0660a-8b9e-4382-8827-e02170d98221")
+		(property "Reference" "#PWR0136"
+			(at 57.785 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,16 +3193,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 125.73 0)
+		(property "Value" "+3.3VA/3"
+			(at 57.785 149.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 121.285 0)
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 121.285 0)
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,8 +3220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 121.285 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 57.785 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,12 +3230,118 @@
 			)
 		)
 		(pin "1"
-			(uuid "511a715b-1451-40ef-a7be-45cf6eb9db3d")
+			(uuid "49fd3492-8517-4b66-a40d-c79b59f4988c")
 		)
 		(instances
 			(project "Power8Board V1"
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR0112")
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc22eef3-fa0b-4999-b37e-517c9a7592d2")
+		(property "Reference" "R7"
+			(at 40.005 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 40.005 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TNPW0805:RES_TNPW0805_VIS"
+			(at 36.322 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31006/tnpw.pdf"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 470K OHM 0.1% 0.26W 0805"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Vishay Dale"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TNPW0805470KBEEA"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.36"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Link" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0805470KBEEA/1607586"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1236000-23df-494a-909c-00c4ca59b3a8")
+		)
+		(pin "2"
+			(uuid "fce30f9f-ab97-4f24-a277-076a0dd048cd")
+		)
+		(instances
+			(project ""
+				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3356,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4158477-f382-4ef3-8d8f-e639c8028bf2")
+		(uuid "f3c7d1ef-224a-479f-af5b-f87558191493")
 		(property "Reference" "R6"
 			(at 40.005 113.0299 0)
 			(effects
@@ -3206,146 +3439,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "11ee515f-9668-4430-ac5d-7be8e4c6f0e1")
+			(uuid "11ee515f-9668-4430-ac5d-7be8e4c6f0e4")
 		)
 		(pin "1"
-			(uuid "379e1e57-0cb1-4ee5-807f-83a9d1eba1a1")
+			(uuid "379e1e57-0cb1-4ee5-807f-83a9d1eba1a4")
 		)
 		(instances
 			(project ""
 				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 130.175 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f85ec981-f996-4bcb-a814-0ef0f4158e44")
-		(property "Reference" "#PWR038"
-			(at 130.175 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA/3"
-			(at 130.175 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.175 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.175 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 130.175 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e8adfc2-4dc8-4f7d-b4a8-13c7373a9bb2")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.645 121.285 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb3d2e93-cf30-4540-8cc0-5d43c31b30b3")
-		(property "Reference" "#PWR0110"
-			(at 80.645 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.645 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.645 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.645 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.645 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f0c770d-196b-4af9-ad1c-f78244e659e9")
-		)
-		(instances
-			(project "Power8Board V1"
-				(path "/835b92cb-5206-4b93-b4be-2a785f4797f4/cc543367-03ad-4bb2-8378-8dc6c533d29a"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

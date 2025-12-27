@@ -104,7 +104,7 @@ Multiply these values read from the ADC by these scalars respectively to find th
 ### Design notes
 
 * Nearly all analog traces are routed on layer 3 to reduce effects of digital noise.
-* Copper pours help to reduce thermal dissipation.
+* Copper pours help with thermal dissipation.
 * Via-in-pad is used to condense routing. It's also a standard option for 6-layer boards when ordering with JLCPCB.
 * Ground on layer 2 & 5 provides low-impedance return path and reduce EMI.
 * Power converters connect from the backside. 

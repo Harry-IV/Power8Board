@@ -128,5 +128,3 @@ Pin #1 is used on pads 4, 5, 7, and 8 on both 48V-12V converters and on pads 4 a
 Pin #2 is used on pads 1, 2, and 3 on both 48V-12V converters and on pads 1, 2, 3, 5, 6, and 7 on the 48V-5V converter (12 in total)
 
 ---
-
-Email me at harry.c.ohagin@gmail.com if you have any questions. 
